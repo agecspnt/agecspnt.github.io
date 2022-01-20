@@ -173,6 +173,11 @@
 <p><img src="https://download.yumie.xyz/img/image-20220120155800342.png" alt="image-20220120155800342"></p>
 <p>七牛云的注册教程自行百度</p>
 <p>注意七牛云的域名，域名的HTTPS问题</p>
+<h1 id="疑难杂症"><a href="#疑难杂症" class="headerlink" title="疑难杂症"></a>疑难杂症</h1><h2 id="大陆特色问题"><a href="#大陆特色问题" class="headerlink" title="大陆特色问题"></a>大陆特色问题</h2><h3 id="npm装包总是装不上？"><a href="#npm装包总是装不上？" class="headerlink" title="npm装包总是装不上？"></a>npm装包总是装不上？</h3><p>安装cnpm，就可以用国内源安装了</p>
+<h3 id="git上传总是失败？？"><a href="#git上传总是失败？？" class="headerlink" title="git上传总是失败？？"></a>git上传总是失败？？</h3><p>第一句在git bash cd到博客根目录运行，可以解决10043问题</p>
+<p>后两句可以解决open ssl failed之类的问题</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
+
 <h1 id="NexT主题配置细节"><a href="#NexT主题配置细节" class="headerlink" title="NexT主题配置细节"></a>NexT主题配置细节</h1><h2 id="站点配置"><a href="#站点配置" class="headerlink" title="站点配置"></a>站点配置</h2><h3 id="设置-hexo-的-next-主题"><a href="#设置-hexo-的-next-主题" class="headerlink" title="设置 hexo 的 next 主题"></a>设置 hexo 的 next 主题</h3><p>我们在站点的配置文件<code>_config.yml</code> 中找到 theme 后添加：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">theme: next  # 配置成刚下载的next主题</span><br></pre></td></tr></table></figure>
 
