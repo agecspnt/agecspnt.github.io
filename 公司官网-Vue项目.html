@@ -24,16 +24,16 @@
   <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"yumie.xyz","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.9.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="公司网站搭建记录 目录构成  dist：vue编译出来的文件，输出结果 src：source的缩写，这个文件里放的都是源代码 assets：放各种组件，包括css样式、图片、字体、js components: 放网页的通用模板 router：路由配置文件 view：所有的页面文件 App.vue: 项目入口文件，我们也可以直接将组件写这里，而不使用 components 目录 main.js: 项">
+<meta name="description" content="公司网站搭建记录">
 <meta property="og:type" content="website">
 <meta property="og:title" content="公司官网-Vue项目">
 <meta property="og:url" content="http://yumie.xyz/%E5%85%AC%E5%8F%B8%E5%AE%98%E7%BD%91-Vue%E9%A1%B9%E7%9B%AE.html">
 <meta property="og:site_name" content="agecspnt&#39;s 个人博客">
-<meta property="og:description" content="公司网站搭建记录 目录构成  dist：vue编译出来的文件，输出结果 src：source的缩写，这个文件里放的都是源代码 assets：放各种组件，包括css样式、图片、字体、js components: 放网页的通用模板 router：路由配置文件 view：所有的页面文件 App.vue: 项目入口文件，我们也可以直接将组件写这里，而不使用 components 目录 main.js: 项">
+<meta property="og:description" content="公司网站搭建记录">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://download.yumie.xyz/img/image-20220120170459159.png">
 <meta property="article:published_time" content="2022-01-20T09:01:05.000Z">
-<meta property="article:modified_time" content="2022-01-20T09:54:12.603Z">
+<meta property="article:modified_time" content="2022-01-20T10:14:25.740Z">
 <meta property="article:author" content="agecspnt">
 <meta property="article:tag" content="Vue">
 <meta property="article:tag" content="Web">
@@ -97,7 +97,7 @@
   <ul class="main-menu menu">
         <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
         <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">5</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">11</span></a></li>
         <li class="menu-item menu-item-优质网站分享"><a href="/website" rel="section"><i class="fas fa-folder fa-fw"></i>优质网站分享</a></li>
         <li class="menu-item menu-item-友情链接"><a href="/links" rel="section"><i class="fas fa-link fa-fw"></i>友情链接</a></li>
       <li class="menu-item menu-item-search">
@@ -156,7 +156,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95%E6%9E%84%E6%88%90"><span class="nav-number">1.</span> <span class="nav-text">目录构成</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-vue%E6%96%87%E4%BB%B6"><span class="nav-number">2.</span> <span class="nav-text">什么是*.vue文件</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95%E6%9E%84%E6%88%90"><span class="nav-number">1.</span> <span class="nav-text">目录构成</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-vue%E6%96%87%E4%BB%B6"><span class="nav-number">2.</span> <span class="nav-text">什么是*.vue文件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#template-%E9%83%A8%E5%88%86"><span class="nav-number">2.1.</span> <span class="nav-text">template 部分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#script-%E9%83%A8%E5%88%86"><span class="nav-number">2.2.</span> <span class="nav-text">script 部分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#style-%E9%83%A8%E5%88%86"><span class="nav-number">2.3.</span> <span class="nav-text">style 部分</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -171,13 +171,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
-          <span class="site-state-item-name">日志</span>
+          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-name">文章</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">11</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -263,6 +263,8 @@ show_date_time();
       
       <div class="post-body">
           <p>公司网站搭建记录</p>
+<span id="more"></span>
+
 <h1 id="目录构成"><a href="#目录构成" class="headerlink" title="目录构成"></a>目录构成</h1><p><img src="https://download.yumie.xyz/img/image-20220120170459159.png" alt="image-20220120170459159"></p>
 <ul>
 <li>dist：vue编译出来的文件，输出结果</li>
@@ -275,12 +277,12 @@ show_date_time();
 <li>main.js: 项目的核心文件</li>
 <li>static：静态资源目录，如图片、字体等。</li>
 </ul>
-<h1 id="什么是-vue文件"><a href="#什么是-vue文件" class="headerlink" title="什么是*.vue文件"></a>什么是*.vue文件</h1><p>首先，我们用 vue-cli 脚手架搭建的项目，里面我们已经遇到了很多，如 index.vue 或者 App.vue 这一的文件了。这到底是个什么东西？如果是初次接触 vue 开发，可能之前没有见过这个东西。*.vue 文件，是一个自定义的文件类型，用类似HTML的语法描述一个Vue组件。每个.vue文件包含三种类型的顶级语言块 <template>, <script> 和 <style>。这三个部分分别代表了 html,js,css。</p>
+<h1 id="什么是-vue文件"><a href="#什么是-vue文件" class="headerlink" title="什么是*.vue文件"></a>什么是*.vue文件</h1><p>首先，我们用 vue-cli 脚手架搭建的项目，里面我们已经遇到了很多，如 index.vue 或者 App.vue 这一的文件了。这到底是个什么东西？如果是初次接触 vue 开发，可能之前没有见过这个东西。*.vue 文件，是一个自定义的文件类型，用类似HTML的语法描述一个Vue组件。每个.vue文件包含三种类型的顶级语言块<code> &lt;template&gt;</code>, <code>&lt;script&gt;</code> 和 <code>&lt;style&gt;</code>。这三个部分分别代表了 html,js,css。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     &lt;Header&gt;&lt;/Header&gt;</span><br><span class="line">     &lt;div class= &quot;article_list&quot; &gt;</span><br><span class="line">       &lt;ul&gt;</span><br><span class="line">         &lt;li&gt;&lt;/li&gt;</span><br><span class="line">       &lt;/ul&gt;</span><br><span class="line">     &lt;/div&gt;</span><br><span class="line">     &lt;Footer&gt;&lt;/Footer&gt;</span><br><span class="line">   &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">import Header from &#x27;../components/header.vue&#x27;</span><br><span class="line">import Footer from &#x27;../components/footer.vue&#x27;</span><br><span class="line">export default &#123;</span><br><span class="line">   components: &#123; Header, Footer &#125;,</span><br><span class="line">   data () &#123;</span><br><span class="line">     return &#123;</span><br><span class="line">       list: []</span><br><span class="line">     &#125;</span><br><span class="line">   &#125;,</span><br><span class="line">   created () &#123;</span><br><span class="line">     this .getData()</span><br><span class="line">   &#125;,</span><br><span class="line">   methods: &#123;</span><br><span class="line">     getData () &#123;</span><br><span class="line">       this .$api.get( &#x27;topics&#x27; , null , r =&gt; &#123;</span><br><span class="line">         console.log(r)</span><br><span class="line">       &#125;)</span><br><span class="line">     &#125;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">   .article_list &#123;margin: auto;&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
 
 <p>以上就是一个简单的 *.vue 文件的基本结构。我们一部分一部分的来解释。</p>
-<h2 id="template-部分"><a href="#template-部分" class="headerlink" title="template 部分"></a><strong>template 部分</strong></h2><p>以下，我不再称呼它为 *.vue 文件了。改成为 vue 组件。首先，一个 vue 组件，他的 template 则代表它的 html 结构，相信大家可以理解了。但是需要注意的是，我们不是说把代码包裹在 <template></template> 中就可以了，而是必须在里面方置一个 html 标签来包裹所有的代码。 本例子中，我们采用了 <div></div>标签。</p>
-<p>大家看到 <Header></Header> 这个代码的时候肯定很奇怪，这是个什么玩意儿。其实，这是一个自定义组件。我们在其他地方写好了一个组件，然后就可以用这种方式引入进来。同样 <Footer></Footer> 也是一个组件。</p>
+<h2 id="template-部分"><a href="#template-部分" class="headerlink" title="template 部分"></a><strong>template 部分</strong></h2><p>以下，我不再称呼它为 *.vue 文件了。改成为 vue 组件。首先，一个 vue 组件，他的 template 则代表它的 html 结构，相信大家可以理解了。但是需要注意的是，我们不是说把代码包裹在 <template><code>&lt;/template&gt;</code> 中就可以了，而是必须在里面方置一个 html 标签来包裹所有的代码。 本例子中，我们采用了 <code>&lt;div&gt;&lt;/div&gt;</code>标签。</p>
+<p>大家看到 <code>&lt;Header&gt;&lt;/Header&gt;</code> 这个代码的时候肯定很奇怪，这是个什么玩意儿。其实，这是一个自定义组件。我们在其他地方写好了一个组件，然后就可以用这种方式引入进来。同样 <code>&lt;Footer&gt;&lt;/Footer&gt;</code> 也是一个组件。</p>
 <h2 id="script-部分"><a href="#script-部分" class="headerlink" title="script 部分"></a><strong>script 部分</strong></h2><p>首先，我们需要两个自定义组件，我们先引用进来。如下格式，比较好理解吧。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import Header from &#x27;../components/header.vue&#x27;</span><br><span class="line">import Footer from &#x27;../components/footer.vue&#x27;</span><br></pre></td></tr></table></figure>
 

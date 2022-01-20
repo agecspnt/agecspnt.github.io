@@ -24,35 +24,39 @@
   <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"yumie.xyz","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.9.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="Vue框架的基础知识">
+<meta name="description" content="大二寒假，在公司闲暇时间完成了Python课程作业，记录一下: 题目：完成两个词云图">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Vue框架">
-<meta property="og:url" content="http://yumie.xyz/20220120/Vue%E6%A1%86%E6%9E%B6/index.html">
+<meta property="og:title" content="利用wordcloud库生成词云（Python）">
+<meta property="og:url" content="http://yumie.xyz/20220120/%E5%88%A9%E7%94%A8wordcloud%E5%BA%93%E7%94%9F%E6%88%90%E8%AF%8D%E4%BA%91%EF%BC%88Python%EF%BC%89/index.html">
 <meta property="og:site_name" content="agecspnt&#39;s 个人博客">
-<meta property="og:description" content="Vue框架的基础知识">
+<meta property="og:description" content="大二寒假，在公司闲暇时间完成了Python课程作业，记录一下: 题目：完成两个词云图">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120222752944.png">
-<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120165314243.png">
-<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120165535317.png">
-<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120165556815.png">
-<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120165641632.png">
-<meta property="article:published_time" content="2022-01-20T08:51:30.000Z">
-<meta property="article:modified_time" content="2022-01-20T14:28:04.363Z">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120220330664.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120220449348.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120220508499.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120220541798.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120220605840.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120220633780.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120220721088.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120220737010.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120220823537.png">
+<meta property="article:published_time" content="2022-01-20T14:02:21.000Z">
+<meta property="article:modified_time" content="2022-01-20T14:31:26.747Z">
 <meta property="article:author" content="agecspnt">
-<meta property="article:tag" content="前端">
-<meta property="article:tag" content="Vue">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="数据可视化">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://download.yumie.xyz/img/image-20220120222752944.png">
+<meta name="twitter:image" content="https://download.yumie.xyz/img/image-20220120220330664.png">
 
 
-<link rel="canonical" href="http://yumie.xyz/20220120/Vue%E6%A1%86%E6%9E%B6/">
+<link rel="canonical" href="http://yumie.xyz/20220120/%E5%88%A9%E7%94%A8wordcloud%E5%BA%93%E7%94%9F%E6%88%90%E8%AF%8D%E4%BA%91%EF%BC%88Python%EF%BC%89/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://yumie.xyz/20220120/Vue%E6%A1%86%E6%9E%B6/","path":"20220120/Vue框架/","title":"Vue框架"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://yumie.xyz/20220120/%E5%88%A9%E7%94%A8wordcloud%E5%BA%93%E7%94%9F%E6%88%90%E8%AF%8D%E4%BA%91%EF%BC%88Python%EF%BC%89/","path":"20220120/利用wordcloud库生成词云（Python）/","title":"利用wordcloud库生成词云（Python）"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Vue框架 | agecspnt's 个人博客</title>
+<title>利用wordcloud库生成词云（Python） | agecspnt's 个人博客</title>
   
 
 
@@ -146,7 +150,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+    <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -159,7 +163,6 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFvue%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">什么是vue？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AF%B9%E6%AF%94%E5%85%B6%E4%BB%96%E6%A1%86%E6%9E%B6-React"><span class="nav-number">2.</span> <span class="nav-text">对比其他框架-React</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AF%B9%E6%AF%94%E5%85%B6%E4%BB%96%E6%A1%86%E6%9E%B6-angular"><span class="nav-number">3.</span> <span class="nav-text">对比其他框架-angular</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#vue-js%E7%9A%84%E6%A0%B8%E5%BF%83%E7%89%B9%E7%82%B9%E2%80%94%E5%93%8D%E5%BA%94%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A"><span class="nav-number">4.</span> <span class="nav-text">vue.js的核心特点—响应的数据绑定</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#vue-js%E7%9A%84%E6%A0%B8%E5%BF%83%E7%89%B9%E7%82%B9%E2%80%94%E5%8F%AF%E7%BB%84%E5%90%88%E7%9A%84%E8%A7%86%E5%9B%BE%E7%BB%84%E4%BB%B6"><span class="nav-number">5.</span> <span class="nav-text">vue.js的核心特点—可组合的视图组件</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -255,7 +258,7 @@ show_date_time();
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yumie.xyz/20220120/Vue%E6%A1%86%E6%9E%B6/">
+    <link itemprop="mainEntityOfPage" href="http://yumie.xyz/20220120/%E5%88%A9%E7%94%A8wordcloud%E5%BA%93%E7%94%9F%E6%88%90%E8%AF%8D%E4%BA%91%EF%BC%88Python%EF%BC%89/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://download.yumie.xyz/img/头像.png">
@@ -268,7 +271,7 @@ show_date_time();
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Vue框架
+          利用wordcloud库生成词云（Python）
         </h1>
 
         <div class="post-meta-container">
@@ -280,7 +283,7 @@ show_date_time();
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-01-20 16:51:30 / 修改时间：22:28:04" itemprop="dateCreated datePublished" datetime="2022-01-20T16:51:30+08:00">2022-01-20</time>
+      <time title="创建时间：2022-01-20 22:02:21 / 修改时间：22:31:26" itemprop="dateCreated datePublished" datetime="2022-01-20T22:02:21+08:00">2022-01-20</time>
     </span>
 
   
@@ -297,7 +300,7 @@ show_date_time();
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.3k</span>
+      <span>1.8k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -315,53 +318,35 @@ show_date_time();
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>Vue框架的基础知识</p>
-<img src="https://download.yumie.xyz/img/image-20220120222752944.png" alt="image-20220120222752944" style="zoom: 33%;" />
+        <p>大二寒假，在公司闲暇时间完成了Python课程作业，记录一下:</p>
+<p>题目：完成两个词云图</p>
+<img src="https://download.yumie.xyz/img/image-20220120220330664.png" alt="image-20220120220330664" style="zoom:25%;" />
 
 <span id="more"></span>
 
-<h1 id="什么是vue？"><a href="#什么是vue？" class="headerlink" title="什么是vue？"></a><strong>什么是vue</strong>？</h1><p>是一套构建用户界面的<strong>渐进式</strong>（用到哪一块就用哪一块，不需要全部用上）前端框架，Vue 的核心库只关注视图层</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120165314243.png" alt="image-20220120165314243"></p>
-<h1 id="对比其他框架-React"><a href="#对比其他框架-React" class="headerlink" title="对比其他框架-React"></a>对比其他框架-React</h1><p>React 和 Vue 有许多相似之处，它们都有使用 Virtual DOM；提供了响应式（Reactive）和组件化（Composable）的视图组件。将注意力集中保持在核心库，而将其他功能如路由和全局状态管理交给相关的库。React 比 Vue 有更丰富的生态系统</p>
-<p>都有支持native的方案，React的RN，vue的Wee下</p>
-<p>都支持SSR服务端渲染</p>
-<p>都支持props进行父子组件间的通信</p>
-<p>性能方面：React 和 Vue 在大部分常见场景下都能提供近似的性能。通常 Vue 会有少量优势，因为 Vue 的 Virtual DOM 实现相对更为轻量一些。</p>
-<p><strong>不同之处就是：</strong></p>
-<ul>
-<li>数据绑定方面，vue实现了数据的双向数据绑定，react数据流动是单向的</li>
-<li>virtual DOM不一样,vue会跟踪每一个组件的依赖关系,不需要重新渲染整个组件树.而对于React而言,每当应用的状态被改变时,全部组件都会重新渲染,所以react中会需要shouldComponentUpdate这个生命周期函数方法来进行控制</li>
-<li>state对象在react应用中不可变的,需要使用setState方法更新状态;在vue中,state对象不是必须的,数据由data属性在vue对象中管理（如果要操作直接this.xxx）</li>
-<li>组件写法不一样, React推荐的做法是 JSX , 也就是把HTML和CSS全都写进JavaScript了,即’all in js’; Vue推荐的做法是webpack+vue-loader的单文件组件格式,即html,css,js写在同一个文件</li>
-</ul>
-<h1 id="对比其他框架-angular"><a href="#对比其他框架-angular" class="headerlink" title="对比其他框架-angular"></a>对比其他框架-angular</h1><p>在性能方面，这两个框架都非常的快，我们也没有足够的实际应用数据来下一个结论。如果你一定想看些数据的话，你可以参考这个第三方跑分。单就这个跑分来看，Vue 似乎比 Angular 要更快一些。</p>
-<p>在大小方面，最近的 Angular 版本中在使用了 AOT 和 tree-shaking 技术后使得最终的代码体积减小了许多。但即使如此，一个包含了 vuex + vue-router 的 Vue 项目 (30kb gzipped) 相比使用了这些优化的 Angular CLI 生成的默认项目尺寸 (~130kb) 还是要小的多。</p>
-<p>灵活性：Vue 相比于 Angular 更加灵活，Vue 官方提供了构建工具来协助你构建项目，但它并不限制你去如何组织你的应用代码。有人可能喜欢有严格的代码组织规范，但也有开发者喜欢更灵活自由的方式</p>
-<h1 id="vue-js的核心特点—响应的数据绑定"><a href="#vue-js的核心特点—响应的数据绑定" class="headerlink" title="vue.js的核心特点—响应的数据绑定"></a><strong>vue.js的核心特点—响应的数据绑定</strong></h1><p>传统的js操作页面：在以前使用js操作页面的时候是这样的，需要操作某个html元素的数据，就的使用js代码获取元素然后在处理业务逻辑</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120165535317.png" alt="image-20220120165535317"></p>
-<p>响应式数据绑定的方式操作页面，可以直接使用像下面代码那样的写法就可以将数据填充到页面中</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120165556815.png" alt="image-20220120165556815"></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div id=&quot;app&quot;&gt;</span><br><span class="line">    &#123;&#123; message &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &#x27;app&#x27;,</span><br><span class="line">  data () &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &#x27;Welcome to Your Vue.js App&#x27;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;style&gt;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<p>（1）完成《中共中央关于党的百年奋斗重大成就和历史经验的决议》的词云，并解释词云体现的内涵意义。文本文档建文件“中共中央关于党的百年奋斗重大成就和历史经验的决议.txt”。决议总共七个部分，也可以只选择其中一部分或者几个部分形成新的.txt文件再做词云。（要求背景图片形状是一幅中国地图）。</p>
+<p>（2）完成“郑州市第29场新冠肺炎疫情防控新闻发布会”的词云图，文本文件见“郑州市第29场新冠肺炎疫情防控新闻发布会.txt”。（要求背景图片形状是一幅穿防护服的白衣天使背景图像）。</p>
+<p>完整代码：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> wordcloud</span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">first_wordcloud</span>():</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;中共中央关于党的百年奋斗重大成就和历史经验的决议.txt&quot;</span>, <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        mask = np.array(Image.<span class="built_in">open</span>(<span class="string">&quot;image/china-map.png&quot;</span>))</span><br><span class="line">        text = f.read()</span><br><span class="line">        w = wordcloud.WordCloud(background_color=<span class="string">&quot;white&quot;</span>,</span><br><span class="line">                                font_path=<span class="string">&quot;C:/Windows/Fonts/simhei.ttf&quot;</span>,</span><br><span class="line">                                mask=mask)</span><br><span class="line">        w.generate(text)</span><br><span class="line">        w.to_file(<span class="string">&quot;output/中共中央关于党的百年奋斗重大成就和历史经验的决议.png&quot;</span>)</span><br><span class="line">        plt.imshow(w) </span><br><span class="line">        plt.show() </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">second_wordcloud</span>():</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;郑州市第29场新冠肺炎疫情防控新闻发布会.txt&quot;</span>, <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        mask = np.array(Image.<span class="built_in">open</span>(<span class="string">&quot;image/white-angel-withWhiteBackground-Highppi.png&quot;</span>))</span><br><span class="line">        text = f.read()</span><br><span class="line">        w = wordcloud.WordCloud(background_color=<span class="string">&#x27;white&#x27;</span>,</span><br><span class="line">                                font_path=<span class="string">&quot;C:/Windows/Fonts/simhei.ttf&quot;</span>,</span><br><span class="line">                                mask=mask)</span><br><span class="line">        w.generate(text)</span><br><span class="line">        w.to_file(<span class="string">&quot;output/郑州市第29场新冠肺炎疫情防控新闻发布会.png&quot;</span>)</span><br><span class="line">        plt.imshow(w) </span><br><span class="line">        plt.show() </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    first_wordcloud()</span><br><span class="line">    second_wordcloud()</span><br></pre></td></tr></table></figure>
 
-<h1 id="vue-js的核心特点—可组合的视图组件"><a href="#vue-js的核心特点—可组合的视图组件" class="headerlink" title="vue.js的核心特点—可组合的视图组件"></a><strong>vue.js的核心特点—可组合的视图组件</strong></h1><p>一个页面映射为组件树。划分组件可维护、可重用、可测试，也就是一个页面由多个组件组合而成</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120165641632.png" alt="image-20220120165641632"></p>
-<p>vue中实现组件引入示例</p>
-<p>第一步：import导入需要引入的组件文件；</p>
-<p>第二步：注册组件；</p>
-<p>第三步：在需要引入组件的文件中加上组件标签（这个标签的标签名就是注册的组件名字，多个单词的和这里有xx-xx的形式）</p>
-<p>需要注意的是：组件可以嵌套引入，也就是说组件可以引入其他组件</p>
-<p>首先创建一个组件，用于被引入的组件，组件名字叫Hello.vue</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;h2&gt;Essential Links&lt;/h2&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &#x27;hello&#x27;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line"></span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<p>因为之前做过词云，所以这次很快就做出来了，这是所呈现的效果（不要纠结为什么台湾没有画出来，这是因为那一块太小所以wordcloud没有填充进去）：</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120220449348.png" alt="image-20220120220449348"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220120220508499.png" alt="image-20220120220508499"></p>
+<p>其中遇到的问题：</p>
+<p>找mask图片是一个大问题。中国地图比较好找，我就在网上随便找了一个。但是发现生成的词云清晰度太低太低，连字都看不清。尝试改生成函数中的参数，发现不管用，因为用mask的情况下会强制以mask的分辨率作为最终生成图片的分辨率。</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120220541798.png" alt="image-20220120220541798"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220120220605840.png" alt="image-20220120220605840"></p>
+<p>生成出来的图片很大很大：</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120220633780.png" alt="image-20220120220633780"></p>
+<p>当然图片分辨率也不能提升太多，不然会报错：</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120220721088.png" alt="image-20220120220721088"></p>
+<p> matplotlib库可以展示图片 </p>
+<img src="https://download.yumie.xyz/img/image-20220120220737010.png" alt="image-20220120220737010" style="zoom:50%;" />
 
-<p>然后在需要引入的组件中，先使用import导入组件</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">import Hello from &#x27;./components/Hello&#x27;</span><br></pre></td></tr></table></figure>
-
-<p>然后使用components注册这个组件</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">components: &#123;</span><br><span class="line">    Hello</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>在需要引入组件的文件中加上组件标签（这个标签的标签名就是注册的组件名字，多个单词的和这里有xx-xx的形式）</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;hello&gt;&lt;/hello&gt;</span><br></pre></td></tr></table></figure>
-
+<p>在做第二张词云图的时候，遇到了一个棘手的问题。因为我找的医生图片背景是transparent的，在生成词云的时候效果很差。在网上找了很久，最终在Stack Overflow上找到解决方案：</p>
+<p><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/50435433/wordcloud-words-not-fitting-to-mask">python - wordcloud words not fitting to mask - Stack Overflow</a></p>
+<p><img src="https://download.yumie.xyz/img/image-20220120220823537.png" alt="image-20220120220823537"></p>
+<p>于是在网站上用工具把图片的transparent背景改成纯白RGB 255,255,255，就可以正常生成了</p>
 
     </div>
 
@@ -389,21 +374,21 @@ show_date_time();
 </div>
 
           <div class="post-tags">
-              <a href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag"># 前端</a>
-              <a href="/tags/Vue/" rel="tag"># Vue</a>
+              <a href="/tags/Python/" rel="tag"># Python</a>
+              <a href="/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/" rel="tag"># 数据可视化</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/20220120/%E5%88%A9%E7%94%A8Python%E7%9A%84yield%E8%AF%AD%E5%8F%A5%E5%AE%9E%E7%8E%B0%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92/" rel="prev" title="利用Python的yield语句实现杨辉三角">
-                  <i class="fa fa-chevron-left"></i> 利用Python的yield语句实现杨辉三角
+                <a href="/20220120/%E5%89%8D%E7%BC%80%E5%92%8C-Python%E5%AE%9E%E7%8E%B0/" rel="prev" title="前缀和(Python实现)">
+                  <i class="fa fa-chevron-left"></i> 前缀和(Python实现)
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/" rel="next" title="Next主题汇总">
-                  Next主题汇总 <i class="fa fa-chevron-right"></i>
+                <a href="/20220120/%E8%A7%A3%E5%86%B3-Win11-%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E5%92%8C%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E5%8D%A1%E9%A1%BF/" rel="next" title="解决 Win11 右键菜单和资源管理器卡顿">
+                  解决 Win11 右键菜单和资源管理器卡顿 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
