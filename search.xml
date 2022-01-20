@@ -17,7 +17,7 @@
     <content><![CDATA[<p>介绍PyCharm的安装方法–小白也能轻松学会！</p>
 <span id="more"></span>
 
-<h2 id="社区版和专业版的区别"><a href="#社区版和专业版的区别" class="headerlink" title="社区版和专业版的区别"></a>社区版和专业版的区别</h2><h3 id="功能上的区别："><a href="#功能上的区别：" class="headerlink" title="功能上的区别："></a>功能上的区别：</h3><p>PyCharm 专业版是功能最丰富的，与社区版相比，PyCharm 专业版增加了 Web 开发、Python We 框架、Python 分析器、远程开发、支持数据库与 SQL 等更多高级功能。</p>
+<h2 id="社区版和专业版的区别"><a href="#社区版和专业版的区别" class="headerlink" title="社区版和专业版的区别"></a>社区版和专业版的区别</h2><h3 id="功能上的区别："><a href="#功能上的区别：" class="headerlink" title="功能上的区别："></a>功能上的区别：</h3><p>PyCharm 专业版是功能最丰富的，与社区版相比，PyCharm 专业版增加了 Web 开发、Python Web 框架、Python 分析器、远程开发、支持数据库与 SQL 等更多高级功能。</p>
 <p>PyCharm 的社区版中没有 Web 开发、Python We 框架、Python 分析器、远程开发、支持数据库与 SQL 等这些功能。</p>
 <p>PyCharm 教育版的功能虽然比专业版会少一些，但与社区版相比，更加支持学校的教学工作。</p>
 <h3 id="其他区别"><a href="#其他区别" class="headerlink" title="其他区别:"></a>其他区别:</h3><p>PyCharm 的专业版是需要付费购买该软件的激活码才可以进行使用。</p>
@@ -81,5 +81,36 @@
         <tag>Python</tag>
         <tag>开发环境</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><ul>
+<li>常见命令：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;postName&quot;</span>      <span class="comment"># 新建文章</span></span><br><span class="line">hexo new page <span class="string">&quot;pageName&quot;</span> <span class="comment"># 新建页面</span></span><br><span class="line">hexo generate            <span class="comment"># 生成静态页面至public目录</span></span><br><span class="line">hexo server              <span class="comment"># 开启预览访问端口（默认端口4000，&#x27;ctrl + c&#x27;关闭server）</span></span><br><span class="line">hexo deploy              <span class="comment"># 部署到GitHub</span></span><br><span class="line">hexo <span class="built_in">help</span>                <span class="comment"># 查看帮助</span></span><br><span class="line">hexo version             <span class="comment"># 查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>缩写命令：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo n == hexo new</span><br><span class="line">hexo g == hexo generate</span><br><span class="line">hexo s == hexo server</span><br><span class="line">hexo d == hexo deploy</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>组合命令：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s -g   <span class="comment"># 生成并本地预览</span></span><br><span class="line">hexo d -g   <span class="comment"># 生成并上传</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>写文章</li>
+</ul>
+<p>我们可以在 hexo 根目录下执行命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&#x27;my-first-blog&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>分隔符</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
   </entry>
 </search>
