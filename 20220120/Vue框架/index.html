@@ -24,25 +24,34 @@
   <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"yumie.xyz","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.9.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="分享技术经验、心得">
-<meta property="og:type" content="website">
-<meta property="og:title" content="agecspnt&#39;s 个人博客">
-<meta property="og:url" content="http://yumie.xyz/index.html">
+<meta name="description" content="什么是vue？是一套构建用户界面的渐进式（用到哪一块就用哪一块，不需要全部用上）前端框架，Vue 的核心库只关注视图层  对比其他框架-ReactReact 和 Vue 有许多相似之处，它们都有使用 Virtual DOM；提供了响应式（Reactive）和组件化（Composable）的视图组件。将注意力集中保持在核心库，而将其他功能如路由和全局状态管理交给相关的库。React 比 Vue 有更">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vue框架">
+<meta property="og:url" content="http://yumie.xyz/20220120/Vue%E6%A1%86%E6%9E%B6/index.html">
 <meta property="og:site_name" content="agecspnt&#39;s 个人博客">
-<meta property="og:description" content="分享技术经验、心得">
+<meta property="og:description" content="什么是vue？是一套构建用户界面的渐进式（用到哪一块就用哪一块，不需要全部用上）前端框架，Vue 的核心库只关注视图层  对比其他框架-ReactReact 和 Vue 有许多相似之处，它们都有使用 Virtual DOM；提供了响应式（Reactive）和组件化（Composable）的视图组件。将注意力集中保持在核心库，而将其他功能如路由和全局状态管理交给相关的库。React 比 Vue 有更">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120165314243.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120165535317.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120165556815.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120165641632.png">
+<meta property="article:published_time" content="2022-01-20T08:51:30.000Z">
+<meta property="article:modified_time" content="2022-01-20T09:00:18.827Z">
 <meta property="article:author" content="agecspnt">
+<meta property="article:tag" content="前端">
+<meta property="article:tag" content="Vue">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://download.yumie.xyz/img/image-20220120165314243.png">
 
 
-<link rel="canonical" href="http://yumie.xyz/">
+<link rel="canonical" href="http://yumie.xyz/20220120/Vue%E6%A1%86%E6%9E%B6/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://yumie.xyz/20220120/Vue%E6%A1%86%E6%9E%B6/","path":"20220120/Vue框架/","title":"Vue框架"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>agecspnt's 个人博客</title>
+<title>Vue框架 | agecspnt's 个人博客</title>
   
 
 
@@ -71,7 +80,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">agecspnt's 个人博客</h1>
+      <p class="site-title">agecspnt's 个人博客</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">少年自有凌云志，不负黄河万古流</p>
@@ -136,7 +145,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -149,6 +158,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFvue%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">什么是vue？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AF%B9%E6%AF%94%E5%85%B6%E4%BB%96%E6%A1%86%E6%9E%B6-React"><span class="nav-number">2.</span> <span class="nav-text">对比其他框架-React</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AF%B9%E6%AF%94%E5%85%B6%E4%BB%96%E6%A1%86%E6%9E%B6-angular"><span class="nav-number">3.</span> <span class="nav-text">对比其他框架-angular</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#vue-js%E7%9A%84%E6%A0%B8%E5%BF%83%E7%89%B9%E7%82%B9%E2%80%94%E5%93%8D%E5%BA%94%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A"><span class="nav-number">4.</span> <span class="nav-text">vue.js的核心特点—响应的数据绑定</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#vue-js%E7%9A%84%E6%A0%B8%E5%BF%83%E7%89%B9%E7%82%B9%E2%80%94%E5%8F%AF%E7%BB%84%E5%90%88%E7%9A%84%E8%A7%86%E5%9B%BE%E7%BB%84%E4%BB%B6"><span class="nav-number">5.</span> <span class="nav-text">vue.js的核心特点—可组合的视图组件</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -233,103 +243,17 @@ show_date_time();
 </noscript>
 
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://yumie.xyz/20220120/%E5%85%AC%E5%8F%B8%E5%AE%98%E7%BD%91-Vue%E9%A1%B9%E7%9B%AE/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://download.yumie.xyz/img/头像.png">
-      <meta itemprop="name" content="agecspnt">
-      <meta itemprop="description" content="分享技术经验、心得">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="agecspnt's 个人博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/20220120/%E5%85%AC%E5%8F%B8%E5%AE%98%E7%BD%91-Vue%E9%A1%B9%E7%9B%AE/" class="post-title-link" itemprop="url">公司官网-Vue项目</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2022-01-20 17:01:05 / 修改时间：17:17:10" itemprop="dateCreated datePublished" datetime="2022-01-20T17:01:05+08:00">2022-01-20</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>2.3k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>2 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>公司网站搭建记录</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/20220120/%E5%85%AC%E5%8F%B8%E5%AE%98%E7%BD%91-Vue%E9%A1%B9%E7%9B%AE/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yumie.xyz/20220120/Vue%E6%A1%86%E6%9E%B6/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -342,9 +266,9 @@ show_date_time();
       <meta itemprop="name" content="agecspnt's 个人博客">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/20220120/Vue%E6%A1%86%E6%9E%B6/" class="post-title-link" itemprop="url">Vue框架</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Vue框架
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -359,6 +283,13 @@ show_date_time();
     </span>
 
   
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
     <span class="post-meta-break"></span>
     <span class="post-meta-item" title="本文字数">
       <span class="post-meta-item-icon">
@@ -383,7 +314,7 @@ show_date_time();
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="什么是vue？"><a href="#什么是vue？" class="headerlink" title="什么是vue？"></a><strong>什么是vue</strong>？</h1><p>是一套构建用户界面的<strong>渐进式</strong>（用到哪一块就用哪一块，不需要全部用上）前端框架，Vue 的核心库只关注视图层</p>
+        <h1 id="什么是vue？"><a href="#什么是vue？" class="headerlink" title="什么是vue？"></a><strong>什么是vue</strong>？</h1><p>是一套构建用户界面的<strong>渐进式</strong>（用到哪一块就用哪一块，不需要全部用上）前端框架，Vue 的核心库只关注视图层</p>
 <p><img src="https://download.yumie.xyz/img/image-20220120165314243.png" alt="image-20220120165314243"></p>
 <h1 id="对比其他框架-React"><a href="#对比其他框架-React" class="headerlink" title="对比其他框架-React"></a>对比其他框架-React</h1><p>React 和 Vue 有许多相似之处，它们都有使用 Virtual DOM；提供了响应式（Reactive）和组件化（Composable）的视图组件。将注意力集中保持在核心库，而将其他功能如路由和全局状态管理交给相关的库。React 比 Vue 有更丰富的生态系统</p>
 <p>都有支持native的方案，React的RN，vue的Wee下</p>
@@ -426,7 +357,6 @@ show_date_time();
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;hello&gt;&lt;/hello&gt;</span><br></pre></td></tr></table></figure>
 
 
-      
     </div>
 
     
@@ -434,285 +364,47 @@ show_date_time();
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
+          <div class="reward-container">
+  <div>Buy me a coffee</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="https://download.yumie.xyz/img/微信收款.png" alt="agecspnt 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="https://download.yumie.xyz/img/支付宝收款.jpg" alt="agecspnt 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
 </div>
 
+          <div class="post-tags">
+              <a href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag"># 前端</a>
+              <a href="/tags/Vue/" rel="tag"># Vue</a>
+          </div>
 
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://yumie.xyz/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://download.yumie.xyz/img/头像.png">
-      <meta itemprop="name" content="agecspnt">
-      <meta itemprop="description" content="分享技术经验、心得">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="agecspnt's 个人博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/" class="post-title-link" itemprop="url">Next主题汇总</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2022-01-20 15:00:00 / 修改时间：16:25:13" itemprop="dateCreated datePublished" datetime="2022-01-20T15:00:00+08:00">2022-01-20</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>5.2k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>5 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Github Pages + Hexo + Next主题</p>
-<p>配置心得</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://yumie.xyz/20220119/PyCharm(%E5%90%AB%E4%B8%93%E4%B8%9A%E7%89%88)%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://download.yumie.xyz/img/头像.png">
-      <meta itemprop="name" content="agecspnt">
-      <meta itemprop="description" content="分享技术经验、心得">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="agecspnt's 个人博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/20220119/PyCharm(%E5%90%AB%E4%B8%93%E4%B8%9A%E7%89%88)%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/" class="post-title-link" itemprop="url">PyCharm(含专业版)安装教程</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-01-19 18:07:36" itemprop="dateCreated datePublished" datetime="2022-01-19T18:07:36+08:00">2022-01-19</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-01-20 15:13:29" itemprop="dateModified" datetime="2022-01-20T15:13:29+08:00">2022-01-20</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>1.5k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>介绍PyCharm的安装方法–小白也能轻松学会！</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/20220119/PyCharm(%E5%90%AB%E4%B8%93%E4%B8%9A%E7%89%88)%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/20220120/%E5%85%AC%E5%8F%B8%E5%AE%98%E7%BD%91-Vue%E9%A1%B9%E7%9B%AE/" rel="prev" title="公司官网-Vue项目">
+                  <i class="fa fa-chevron-left"></i> 公司官网-Vue项目
+                </a>
             </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://yumie.xyz/20220118/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://download.yumie.xyz/img/头像.png">
-      <meta itemprop="name" content="agecspnt">
-      <meta itemprop="description" content="分享技术经验、心得">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="agecspnt's 个人博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/20220118/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" class="post-title-link" itemprop="url">测试文章</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-01-18 11:45:02" itemprop="dateCreated datePublished" datetime="2022-01-18T11:45:02+08:00">2022-01-18</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-01-20 14:44:46" itemprop="dateModified" datetime="2022-01-20T14:44:46+08:00">2022-01-20</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>42</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>测试一下    </p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/20220118/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
+            <div class="post-nav-item">
+                <a href="/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/" rel="next" title="Next主题汇总">
+                  Next主题汇总 <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          </div>
     </footer>
   </article>
 </div>
+
 
 
 
