@@ -3109,27 +3109,33 @@ mark.search-keyword {
   }
 }
 body {
-  background: url("https://download.yumie.xyz/img/wallhaven-z8238o_3840x2160.png");
+  background: url("https://download.yumie.xyz/img/wallhaven-7622je_3840x2160.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
 }
 .footer-inner {
-  color: #fff;
+  color: #000;
 }
 .content-wrap {
-  opacity: 0.9;
+  opacity: 0.7;
 }
 .sidebar-inner {
-  background: rgba(255,255,255,0.7) none repeat scroll !important;
+  background: rgba(255,255,255,0.97) none repeat scroll !important;
 }
 .header-inner {
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.97);
 }
 .popup {
-  opacity: 0.9;
+  opacity: 0.97;
 }
 .post-block {
-  background: rgba(255,255,255,0.95) none repeat scroll !important;
+  background: rgba(255,255,255,0.97) none repeat scroll !important;
+}
+.with-love {
+  color: #000;
+  display: inline-block;
+  margin: 0 5px;
+  animation: icon-animate 1 ease-in-out infinite;
 }
