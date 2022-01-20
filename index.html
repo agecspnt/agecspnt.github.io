@@ -268,7 +268,7 @@ show_date_time();
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-01-20 17:01:05 / 修改时间：17:17:10" itemprop="dateCreated datePublished" datetime="2022-01-20T17:01:05+08:00">2022-01-20</time>
+      <time title="创建时间：2022-01-20 17:01:05 / 修改时间：17:22:45" itemprop="dateCreated datePublished" datetime="2022-01-20T17:01:05+08:00">2022-01-20</time>
     </span>
 
   
@@ -355,7 +355,7 @@ show_date_time();
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-01-20 16:51:30 / 修改时间：17:00:18" itemprop="dateCreated datePublished" datetime="2022-01-20T16:51:30+08:00">2022-01-20</time>
+      <time title="创建时间：2022-01-20 16:51:30 / 修改时间：17:45:44" itemprop="dateCreated datePublished" datetime="2022-01-20T16:51:30+08:00">2022-01-20</time>
     </span>
 
   
@@ -383,49 +383,15 @@ show_date_time();
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="什么是vue？"><a href="#什么是vue？" class="headerlink" title="什么是vue？"></a><strong>什么是vue</strong>？</h1><p>是一套构建用户界面的<strong>渐进式</strong>（用到哪一块就用哪一块，不需要全部用上）前端框架，Vue 的核心库只关注视图层</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120165314243.png" alt="image-20220120165314243"></p>
-<h1 id="对比其他框架-React"><a href="#对比其他框架-React" class="headerlink" title="对比其他框架-React"></a>对比其他框架-React</h1><p>React 和 Vue 有许多相似之处，它们都有使用 Virtual DOM；提供了响应式（Reactive）和组件化（Composable）的视图组件。将注意力集中保持在核心库，而将其他功能如路由和全局状态管理交给相关的库。React 比 Vue 有更丰富的生态系统</p>
-<p>都有支持native的方案，React的RN，vue的Wee下</p>
-<p>都支持SSR服务端渲染</p>
-<p>都支持props进行父子组件间的通信</p>
-<p>性能方面：React 和 Vue 在大部分常见场景下都能提供近似的性能。通常 Vue 会有少量优势，因为 Vue 的 Virtual DOM 实现相对更为轻量一些。</p>
-<p><strong>不同之处就是：</strong></p>
-<ul>
-<li>数据绑定方面，vue实现了数据的双向数据绑定，react数据流动是单向的</li>
-<li>virtual DOM不一样,vue会跟踪每一个组件的依赖关系,不需要重新渲染整个组件树.而对于React而言,每当应用的状态被改变时,全部组件都会重新渲染,所以react中会需要shouldComponentUpdate这个生命周期函数方法来进行控制</li>
-<li>state对象在react应用中不可变的,需要使用setState方法更新状态;在vue中,state对象不是必须的,数据由data属性在vue对象中管理（如果要操作直接this.xxx）</li>
-<li>组件写法不一样, React推荐的做法是 JSX , 也就是把HTML和CSS全都写进JavaScript了,即’all in js’; Vue推荐的做法是webpack+vue-loader的单文件组件格式,即html,css,js写在同一个文件</li>
-</ul>
-<h1 id="对比其他框架-angular"><a href="#对比其他框架-angular" class="headerlink" title="对比其他框架-angular"></a>对比其他框架-angular</h1><p>在性能方面，这两个框架都非常的快，我们也没有足够的实际应用数据来下一个结论。如果你一定想看些数据的话，你可以参考这个第三方跑分。单就这个跑分来看，Vue 似乎比 Angular 要更快一些。</p>
-<p>在大小方面，最近的 Angular 版本中在使用了 AOT 和 tree-shaking 技术后使得最终的代码体积减小了许多。但即使如此，一个包含了 vuex + vue-router 的 Vue 项目 (30kb gzipped) 相比使用了这些优化的 Angular CLI 生成的默认项目尺寸 (~130kb) 还是要小的多。</p>
-<p>灵活性：Vue 相比于 Angular 更加灵活，Vue 官方提供了构建工具来协助你构建项目，但它并不限制你去如何组织你的应用代码。有人可能喜欢有严格的代码组织规范，但也有开发者喜欢更灵活自由的方式</p>
-<h1 id="vue-js的核心特点—响应的数据绑定"><a href="#vue-js的核心特点—响应的数据绑定" class="headerlink" title="vue.js的核心特点—响应的数据绑定"></a><strong>vue.js的核心特点—响应的数据绑定</strong></h1><p>传统的js操作页面：在以前使用js操作页面的时候是这样的，需要操作某个html元素的数据，就的使用js代码获取元素然后在处理业务逻辑</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120165535317.png" alt="image-20220120165535317"></p>
-<p>响应式数据绑定的方式操作页面，可以直接使用像下面代码那样的写法就可以将数据填充到页面中</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120165556815.png" alt="image-20220120165556815"></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div id=&quot;app&quot;&gt;</span><br><span class="line">    &#123;&#123; message &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &#x27;app&#x27;,</span><br><span class="line">  data () &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &#x27;Welcome to Your Vue.js App&#x27;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;style&gt;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
-
-<h1 id="vue-js的核心特点—可组合的视图组件"><a href="#vue-js的核心特点—可组合的视图组件" class="headerlink" title="vue.js的核心特点—可组合的视图组件"></a><strong>vue.js的核心特点—可组合的视图组件</strong></h1><p>一个页面映射为组件树。划分组件可维护、可重用、可测试，也就是一个页面由多个组件组合而成</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120165641632.png" alt="image-20220120165641632"></p>
-<p>vue中实现组件引入示例</p>
-<p>第一步：import导入需要引入的组件文件；</p>
-<p>第二步：注册组件；</p>
-<p>第三步：在需要引入组件的文件中加上组件标签（这个标签的标签名就是注册的组件名字，多个单词的和这里有xx-xx的形式）</p>
-<p>需要注意的是：组件可以嵌套引入，也就是说组件可以引入其他组件</p>
-<p>首先创建一个组件，用于被引入的组件，组件名字叫Hello.vue</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;h2&gt;Essential Links&lt;/h2&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &#x27;hello&#x27;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line"></span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
-
-<p>然后在需要引入的组件中，先使用import导入组件</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">import Hello from &#x27;./components/Hello&#x27;</span><br></pre></td></tr></table></figure>
-
-<p>然后使用components注册这个组件</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">components: &#123;</span><br><span class="line">    Hello</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>在需要引入组件的文件中加上组件标签（这个标签的标签名就是注册的组件名字，多个单词的和这里有xx-xx的形式）</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;hello&gt;&lt;/hello&gt;</span><br></pre></td></tr></table></figure>
-
-
+          <p>Vue框架的基础知识</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/20220120/Vue%E6%A1%86%E6%9E%B6/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
