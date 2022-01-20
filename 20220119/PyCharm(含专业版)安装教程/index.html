@@ -108,7 +108,7 @@
   <ul class="main-menu menu">
         <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
         <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">2</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">3</span></a></li>
         <li class="menu-item menu-item-优质网站分享"><a href="/website" rel="section"><i class="fas fa-folder fa-fw"></i>优质网站分享</a></li>
         <li class="menu-item menu-item-友情链接"><a href="/links" rel="section"><i class="fas fa-link fa-fw"></i>友情链接</a></li>
       <li class="menu-item menu-item-search">
@@ -188,7 +188,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -204,9 +204,7 @@
 
 
 
-        </div>
-      </div>
-      <div id="days"></div>
+          <div id="days"></div>
 </script>
 <script language="javascript">
 function show_date_time(){
@@ -224,7 +222,7 @@ hrsold=setzero(Math.floor(e_hrsold));
 e_minsold=(e_hrsold-hrsold)*60;
 minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
 seconds=setzero(Math.floor((e_minsold-minsold)*60));
-document.getElementById('days').innerHTML="已运行"+daysold+"天"+hrsold+"时"+minsold+"分"+seconds+"秒";
+document.getElementById('days').innerHTML="本站已运行"+daysold+"天"+hrsold+"时"+minsold+"分"+seconds+"秒";
 }
 function setzero(i){
 if (i<10)
@@ -233,6 +231,9 @@ return i;
 }
 show_date_time();
 </script>
+        </div>
+        
+      </div>
     </div>
   </aside>
   <div class="sidebar-dimmer"></div>
@@ -425,8 +426,8 @@ show_date_time();
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/" rel="prev" title="">
-                  <i class="fa fa-chevron-left"></i> 
+                <a href="/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/" rel="prev" title="Next主题汇总">
+                  <i class="fa fa-chevron-left"></i> Next主题汇总
                 </a>
             </div>
             <div class="post-nav-item">

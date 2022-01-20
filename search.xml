@@ -83,9 +83,13 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>Next主题汇总</title>
     <url>/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><ul>
+    <content><![CDATA[<p>Github Pages + Hexo + Next主题</p>
+<p>配置心得</p>
+<span id="more"></span>
+
+<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><ul>
 <li>常见命令：</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;postName&quot;</span>      <span class="comment"># 新建文章</span></span><br><span class="line">hexo new page <span class="string">&quot;pageName&quot;</span> <span class="comment"># 新建页面</span></span><br><span class="line">hexo generate            <span class="comment"># 生成静态页面至public目录</span></span><br><span class="line">hexo server              <span class="comment"># 开启预览访问端口（默认端口4000，&#x27;ctrl + c&#x27;关闭server）</span></span><br><span class="line">hexo deploy              <span class="comment"># 部署到GitHub</span></span><br><span class="line">hexo <span class="built_in">help</span>                <span class="comment"># 查看帮助</span></span><br><span class="line">hexo version             <span class="comment"># 查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
@@ -112,5 +116,8 @@
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br></pre></td></tr></table></figure>
 
 ]]></content>
+      <tags>
+        <tag>博客</tag>
+      </tags>
   </entry>
 </search>

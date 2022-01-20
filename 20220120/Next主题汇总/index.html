@@ -24,16 +24,17 @@
   <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"yumie.xyz","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.9.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="基本操作 常见命令：  1234567hexo new &quot;postName&quot;      # 新建文章hexo new page &quot;pageName&quot; # 新建页面hexo generate            # 生成静态页面至public目录hexo server              # 开启预览访问端口（默认端口4000，&amp;#x27;ctrl +">
+<meta name="description" content="Github Pages + Hexo + Next主题 配置心得">
 <meta property="og:type" content="article">
-<meta property="og:title" content="agecspnt&#39;s 个人博客">
+<meta property="og:title" content="Next主题汇总">
 <meta property="og:url" content="http://yumie.xyz/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/index.html">
 <meta property="og:site_name" content="agecspnt&#39;s 个人博客">
-<meta property="og:description" content="基本操作 常见命令：  1234567hexo new &quot;postName&quot;      # 新建文章hexo new page &quot;pageName&quot; # 新建页面hexo generate            # 生成静态页面至public目录hexo server              # 开启预览访问端口（默认端口4000，&amp;#x27;ctrl +">
+<meta property="og:description" content="Github Pages + Hexo + Next主题 配置心得">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-01-20T06:59:24.435Z">
-<meta property="article:modified_time" content="2022-01-20T07:13:37.883Z">
+<meta property="article:published_time" content="2022-01-20T07:00:00.000Z">
+<meta property="article:modified_time" content="2022-01-20T07:18:11.398Z">
 <meta property="article:author" content="agecspnt">
+<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
 
 
@@ -41,10 +42,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://yumie.xyz/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/","path":"20220120/Next主题汇总/","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://yumie.xyz/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/","path":"20220120/Next主题汇总/","title":"Next主题汇总"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title> | agecspnt's 个人博客</title>
+<title>Next主题汇总 | agecspnt's 个人博客</title>
   
 
 
@@ -92,7 +93,7 @@
   <ul class="main-menu menu">
         <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
         <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">2</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">3</span></a></li>
         <li class="menu-item menu-item-优质网站分享"><a href="/website" rel="section"><i class="fas fa-folder fa-fw"></i>优质网站分享</a></li>
         <li class="menu-item menu-item-友情链接"><a href="/links" rel="section"><i class="fas fa-link fa-fw"></i>友情链接</a></li>
       <li class="menu-item menu-item-search">
@@ -172,7 +173,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -188,9 +189,7 @@
 
 
 
-        </div>
-      </div>
-      <div id="days"></div>
+          <div id="days"></div>
 </script>
 <script language="javascript">
 function show_date_time(){
@@ -208,7 +207,7 @@ hrsold=setzero(Math.floor(e_hrsold));
 e_minsold=(e_hrsold-hrsold)*60;
 minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
 seconds=setzero(Math.floor((e_minsold-minsold)*60));
-document.getElementById('days').innerHTML="已运行"+daysold+"天"+hrsold+"时"+minsold+"分"+seconds+"秒";
+document.getElementById('days').innerHTML="本站已运行"+daysold+"天"+hrsold+"时"+minsold+"分"+seconds+"秒";
 }
 function setzero(i){
 if (i<10)
@@ -217,6 +216,9 @@ return i;
 }
 show_date_time();
 </script>
+        </div>
+        
+      </div>
     </div>
   </aside>
   <div class="sidebar-dimmer"></div>
@@ -259,7 +261,7 @@ show_date_time();
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          
+          Next主题汇总
         </h1>
 
         <div class="post-meta-container">
@@ -271,7 +273,7 @@ show_date_time();
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-01-20 14:59:24 / 修改时间：15:13:37" itemprop="dateCreated datePublished" datetime="2022-01-20T14:59:24+08:00">2022-01-20</time>
+      <time title="创建时间：2022-01-20 15:00:00 / 修改时间：15:18:11" itemprop="dateCreated datePublished" datetime="2022-01-20T15:00:00+08:00">2022-01-20</time>
     </span>
 
   
@@ -288,7 +290,7 @@ show_date_time();
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>408</span>
+      <span>435</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -306,7 +308,11 @@ show_date_time();
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><ul>
+        <p>Github Pages + Hexo + Next主题</p>
+<p>配置心得</p>
+<span id="more"></span>
+
+<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><ul>
 <li>常见命令：</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;postName&quot;</span>      <span class="comment"># 新建文章</span></span><br><span class="line">hexo new page <span class="string">&quot;pageName&quot;</span> <span class="comment"># 新建页面</span></span><br><span class="line">hexo generate            <span class="comment"># 生成静态页面至public目录</span></span><br><span class="line">hexo server              <span class="comment"># 开启预览访问端口（默认端口4000，&#x27;ctrl + c&#x27;关闭server）</span></span><br><span class="line">hexo deploy              <span class="comment"># 部署到GitHub</span></span><br><span class="line">hexo <span class="built_in">help</span>                <span class="comment"># 查看帮助</span></span><br><span class="line">hexo version             <span class="comment"># 查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
@@ -358,6 +364,9 @@ show_date_time();
   </div>
 </div>
 
+          <div class="post-tags">
+              <a href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag"># 博客</a>
+          </div>
 
         
 

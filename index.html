@@ -90,7 +90,7 @@
   <ul class="main-menu menu">
         <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
         <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">2</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">3</span></a></li>
         <li class="menu-item menu-item-优质网站分享"><a href="/website" rel="section"><i class="fas fa-folder fa-fw"></i>优质网站分享</a></li>
         <li class="menu-item menu-item-友情链接"><a href="/links" rel="section"><i class="fas fa-link fa-fw"></i>友情链接</a></li>
       <li class="menu-item menu-item-search">
@@ -169,7 +169,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -185,9 +185,7 @@
 
 
 
-        </div>
-      </div>
-      <div id="days"></div>
+          <div id="days"></div>
 </script>
 <script language="javascript">
 function show_date_time(){
@@ -205,7 +203,7 @@ hrsold=setzero(Math.floor(e_hrsold));
 e_minsold=(e_hrsold-hrsold)*60;
 minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
 seconds=setzero(Math.floor((e_minsold-minsold)*60));
-document.getElementById('days').innerHTML="已运行"+daysold+"天"+hrsold+"时"+minsold+"分"+seconds+"秒";
+document.getElementById('days').innerHTML="本站已运行"+daysold+"天"+hrsold+"时"+minsold+"分"+seconds+"秒";
 }
 function setzero(i){
 if (i<10)
@@ -214,6 +212,9 @@ return i;
 }
 show_date_time();
 </script>
+        </div>
+        
+      </div>
     </div>
   </aside>
   <div class="sidebar-dimmer"></div>
@@ -255,7 +256,7 @@ show_date_time();
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/" class="post-title-link" itemprop="url">未命名</a>
+          <a href="/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/" class="post-title-link" itemprop="url">Next主题汇总</a>
         </h2>
 
         <div class="post-meta-container">
@@ -267,7 +268,7 @@ show_date_time();
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-01-20 14:59:24 / 修改时间：15:13:37" itemprop="dateCreated datePublished" datetime="2022-01-20T14:59:24+08:00">2022-01-20</time>
+      <time title="创建时间：2022-01-20 15:00:00 / 修改时间：15:18:11" itemprop="dateCreated datePublished" datetime="2022-01-20T15:00:00+08:00">2022-01-20</time>
     </span>
 
   
@@ -277,7 +278,7 @@ show_date_time();
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>408</span>
+      <span>435</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -295,33 +296,16 @@ show_date_time();
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><ul>
-<li>常见命令：</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;postName&quot;</span>      <span class="comment"># 新建文章</span></span><br><span class="line">hexo new page <span class="string">&quot;pageName&quot;</span> <span class="comment"># 新建页面</span></span><br><span class="line">hexo generate            <span class="comment"># 生成静态页面至public目录</span></span><br><span class="line">hexo server              <span class="comment"># 开启预览访问端口（默认端口4000，&#x27;ctrl + c&#x27;关闭server）</span></span><br><span class="line">hexo deploy              <span class="comment"># 部署到GitHub</span></span><br><span class="line">hexo <span class="built_in">help</span>                <span class="comment"># 查看帮助</span></span><br><span class="line">hexo version             <span class="comment"># 查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>缩写命令：</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo n == hexo new</span><br><span class="line">hexo g == hexo generate</span><br><span class="line">hexo s == hexo server</span><br><span class="line">hexo d == hexo deploy</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>组合命令：</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo s -g   <span class="comment"># 生成并本地预览</span></span><br><span class="line">hexo d -g   <span class="comment"># 生成并上传</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>写文章</li>
-</ul>
-<p>我们可以在 hexo 根目录下执行命令：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&#x27;my-first-blog&#x27;</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>分隔符</li>
-</ul>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br></pre></td></tr></table></figure>
-
-
+          <p>Github Pages + Hexo + Next主题</p>
+<p>配置心得</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
