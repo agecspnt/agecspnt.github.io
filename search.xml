@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>PyCharm(含专业版)安装教程</title>
+    <url>/20220119/PyCharm(%E5%90%AB%E4%B8%93%E4%B8%9A%E7%89%88)%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>介绍PyCharm的安装方法–小白也能轻松学会！</p>
+<span id="more"></span>
+
+<h2 id="社区版和专业版的区别"><a href="#社区版和专业版的区别" class="headerlink" title="社区版和专业版的区别"></a>社区版和专业版的区别</h2><h3 id="功能上的区别："><a href="#功能上的区别：" class="headerlink" title="功能上的区别："></a>功能上的区别：</h3><p>PyCharm 专业版是功能最丰富的，与社区版相比，PyCharm 专业版增加了 Web 开发、Python We 框架、Python 分析器、远程开发、支持数据库与 SQL 等更多高级功能。</p>
+<p>PyCharm 的社区版中没有 Web 开发、Python We 框架、Python 分析器、远程开发、支持数据库与 SQL 等这些功能。</p>
+<p>PyCharm 教育版的功能虽然比专业版会少一些，但与社区版相比，更加支持学校的教学工作。</p>
+<h3 id="其他区别"><a href="#其他区别" class="headerlink" title="其他区别:"></a>其他区别:</h3><p>PyCharm 的专业版是需要付费购买该软件的激活码才可以进行使用。</p>
+<p>PyCharm 的社区版提供给开发者免费使用的。</p>
+<p>PyCharm 的教育版只针对师生认证的用户才免费使用。</p>
+<h3 id="适用人群不同"><a href="#适用人群不同" class="headerlink" title="适用人群不同"></a>适用人群不同</h3><p>PyCharm 的专业版是适用于一些公司进行专业互联网开发适用，这需要使用公司投入一定资金。</p>
+<p>PyCharm 的社区版是提供给编程爱好者使用学术交流的，所以是免费提供的，其功能虽然不够全面，但能够满足日常开发需要。</p>
+<p>PyCharm 的教育版则是以公益为目的免费提供给各大学校进行编程教学，发展编程教育事业。</p>
+<p><strong>建议初学者选择社区版, 专业研究选择专业版.</strong></p>
+<h2 id="下载和安装"><a href="#下载和安装" class="headerlink" title="下载和安装"></a>下载和安装</h2><p>先下载需要的 Python 版本(官网下载)</p>
+<p><a href="https://www.python.org/">https://www.python.org/</a></p>
+<p>Python安装教程:</p>
+<p> <a href="https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624">https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624</a></p>
+<p>下载 PyCharm(官网下载)</p>
+<p><a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a></p>
+<p><img src="https://download.yumie.xyz/img/2021090603102472.png"></p>
+<p>左边是专业版, 右边是免费版(社区版)</p>
+<h2 id="白嫖专业版-可选"><a href="#白嫖专业版-可选" class="headerlink" title="白嫖专业版(可选)"></a>白嫖专业版(可选)</h2><blockquote>
+<p><strong>!!!社区版直接跳过这一步</strong></p>
+</blockquote>
+<p>如果是大学生, 可以在官网上认证, 免费试用一年, 但是时间太短, 我们采用一劳永逸的方法:</p>
+<p>安装完专业版, 选择试用, 先随便新建一个项目进入主界面</p>
+<p>找到 Settings/Preferences… -&gt; Plugins</p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175443234.png" alt="image-20220119175443234"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175502592.png" alt="image-20220119175502592"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175511722.png" alt="image-20220119175511722"></p>
+<p>手动添加第三方插件仓库地址：<a href="https://plugins.zhile.io/">https://plugins.zhile.io</a></p>
+<p>搜索：IDE Eval Reset 插件进行安装</p>
+<p>安装成功之后, 首次运行</p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175722751.png" alt="image-20220119175722751"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175754232.png" alt="image-20220119175754232"></p>
+<p>勾选 Auto reset before per restart , 勾选之后点击 Reset</p>
+<p>接着一路 yes/ok, 重启 PyCharm 过后就可以了</p>
+<p>在每次 Pycharm 重启的时候都会自动续期</p>
+<p>这样就可以拥有无限的试用时间, 相当于免费了</p>
+<h2 id="初次打开-新建项目"><a href="#初次打开-新建项目" class="headerlink" title="初次打开, 新建项目"></a>初次打开, 新建项目</h2><p><img src="https://download.yumie.xyz/img/image-20220119175834654.png" alt="image-20220119175834654"></p>
+<p>我们点击 New Project</p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175929740.png" alt="image-20220119175929740"></p>
+<p>建议不要把代码放在 c 盘, 因为很多人找不到这个位置在哪, 那么放在其他磁盘中就能解决这个问题</p>
+<p>其他的不用更改, 因为 PyCharm 会自动更改下面虚拟环境的路径</p>
+<p><strong>为什么要用虚拟环境???</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">在实际项目开发中，我们通常会根据自己的需求去下载各种相应的框架库，如 Scrapy、Beautiful Soup 等，但是可能每个项目使用的框架库并不一样，或使用框架的版本不一样，这样需要我们根据需求不断的更新或卸载相应的库。直接怼我们的 Python 环境操作会让我们的开发环境和项目造成很多不必要的麻烦，管理也相当混乱。</span><br></pre></td></tr></table></figure>
+
+<p>点击 Create</p>
+<p>那么现在项目就创建成功了，勾选 Show tips on startup，不用每次都打开欢迎界面，然后关闭即可。</p>
+<p>到现在, 项目已经创建完毕了</p>
+<h2 id="设置中文界面"><a href="#设置中文界面" class="headerlink" title="设置中文界面"></a>设置中文界面</h2><p>File &gt; Setting &gt; Plugins &gt; Marketplace</p>
+<p>搜索 Chinese</p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180021047.png" alt="image-20220119180021047"></p>
+<p>安装这个下载量最多的</p>
+<p>完事后重启 PyCharm 就 ok 了</p>
+<h2 id="下载插件-库速度太慢-换源"><a href="#下载插件-库速度太慢-换源" class="headerlink" title="下载插件/库速度太慢? 换源!"></a>下载插件/库速度太慢? 换源!</h2><p>打开 settings </p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180230546.png" alt="image-20220119180230546"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180244617.png" alt="image-20220119180244617"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180254596.png" alt="image-20220119180254596"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180302962.png" alt="image-20220119180302962"></p>
+<p>输入清华源 <a href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a> 点击 ok</p>
+<p>以后再在国内下载第三方库, 速度就会快很多了</p>
+]]></content>
+      <tags>
+        <tag>Python</tag>
+        <tag>开发环境</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试文章</title>
+    <url>/20220118/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<p>测试一下    </p>
+<span id="more"></span>
+<p>代码块测试：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello,world!&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+</search>
