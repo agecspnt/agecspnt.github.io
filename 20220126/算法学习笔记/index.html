@@ -38,8 +38,11 @@
 <meta property="og:image" content="https://download.yumie.xyz/img/image-20220126094923922.png">
 <meta property="og:image" content="https://download.yumie.xyz/img/image-20220126143744018.png">
 <meta property="og:image" content="https://download.yumie.xyz/img/image-20220126145236034.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220126161437967.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220126163551156.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220126163717730.png">
 <meta property="article:published_time" content="2022-01-26T03:01:13.000Z">
-<meta property="article:modified_time" content="2022-01-26T08:04:47.179Z">
+<meta property="article:modified_time" content="2022-01-26T08:48:37.882Z">
 <meta property="article:author" content="agecspnt">
 <meta property="article:tag" content="蓝桥杯">
 <meta property="article:tag" content="算法">
@@ -162,7 +165,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E7%BC%80%E5%92%8C"><span class="nav-number">1.</span> <span class="nav-text">前缀和</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89"><span class="nav-number">1.1.</span> <span class="nav-text">定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%9C%E7%94%A8"><span class="nav-number">1.2.</span> <span class="nav-text">作用</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B7%AE%E5%88%86"><span class="nav-number">2.</span> <span class="nav-text">差分</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89-1"><span class="nav-number">2.1.</span> <span class="nav-text">定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%9C%E7%94%A8-1"><span class="nav-number">2.2.</span> <span class="nav-text">作用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">2.3.</span> <span class="nav-text">总结</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BE%8B%E9%A2%98"><span class="nav-number">2.4.</span> <span class="nav-text">例题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F"><span class="nav-number">2.4.1.</span> <span class="nav-text">输入格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F"><span class="nav-number">2.4.2.</span> <span class="nav-text">输出格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E8%8C%83%E5%9B%B4"><span class="nav-number">2.4.3.</span> <span class="nav-text">数据范围</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E6%A0%B7%E4%BE%8B%EF%BC%9A"><span class="nav-number">2.4.4.</span> <span class="nav-text">输入样例：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B%EF%BC%9A"><span class="nav-number">2.4.5.</span> <span class="nav-text">输出样例：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3%EF%BC%9A"><span class="nav-number">2.4.6.</span> <span class="nav-text">问题求解：</span></a></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">第一章 基础算法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E7%BC%80%E5%92%8C"><span class="nav-number">1.1.</span> <span class="nav-text">前缀和</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89"><span class="nav-number">1.1.1.</span> <span class="nav-text">定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%9C%E7%94%A8"><span class="nav-number">1.1.2.</span> <span class="nav-text">作用</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B7%AE%E5%88%86"><span class="nav-number">1.2.</span> <span class="nav-text">差分</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89-1"><span class="nav-number">1.2.1.</span> <span class="nav-text">定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%9C%E7%94%A8-1"><span class="nav-number">1.2.2.</span> <span class="nav-text">作用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">1.2.3.</span> <span class="nav-text">总结</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BE%8B%E9%A2%98"><span class="nav-number">1.2.4.</span> <span class="nav-text">例题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F"><span class="nav-number">1.2.4.1.</span> <span class="nav-text">输入格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F"><span class="nav-number">1.2.4.2.</span> <span class="nav-text">输出格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E8%8C%83%E5%9B%B4"><span class="nav-number">1.2.4.3.</span> <span class="nav-text">数据范围</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E6%A0%B7%E4%BE%8B%EF%BC%9A"><span class="nav-number">1.2.4.4.</span> <span class="nav-text">输入样例：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B%EF%BC%9A"><span class="nav-number">1.2.4.5.</span> <span class="nav-text">输出样例：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3%EF%BC%9A"><span class="nav-number">1.2.4.6.</span> <span class="nav-text">问题求解：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E7%BB%B4%E5%B7%AE%E5%88%86"><span class="nav-number">1.3.</span> <span class="nav-text">二维差分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E7%AE%97%E6%B3%95"><span class="nav-number">1.4.</span> <span class="nav-text">双指针算法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%8D%E8%BF%90%E7%AE%97"><span class="nav-number">1.5.</span> <span class="nav-text">位运算</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A6%BB%E6%95%A3%E5%8C%96"><span class="nav-number">1.6.</span> <span class="nav-text">离散化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8C%BA%E9%97%B4%E5%90%88%E5%B9%B6"><span class="nav-number">1.7.</span> <span class="nav-text">区间合并</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -177,7 +180,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">19</span>
+          <span class="site-state-item-count">20</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -283,7 +286,7 @@ show_date_time();
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-01-26 11:01:13 / 修改时间：16:04:47" itemprop="dateCreated datePublished" datetime="2022-01-26T11:01:13+08:00">2022-01-26</time>
+      <time title="创建时间：2022-01-26 11:01:13 / 修改时间：16:48:37" itemprop="dateCreated datePublished" datetime="2022-01-26T11:01:13+08:00">2022-01-26</time>
     </span>
 
   
@@ -300,14 +303,14 @@ show_date_time();
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>1.4k</span>
+      <span>1.9k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
@@ -323,9 +326,7 @@ show_date_time();
 
 <span id="more"></span>
 
-
-
-<h2 id="前缀和"><a href="#前缀和" class="headerlink" title="前缀和"></a>前缀和</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>原数组：a1 a2 a3 … ai</p>
+<h1 id="第一章-基础算法"><a href="#第一章-基础算法" class="headerlink" title="第一章 基础算法"></a>第一章 基础算法</h1><h2 id="前缀和"><a href="#前缀和" class="headerlink" title="前缀和"></a>前缀和</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>原数组：a1 a2 a3 … ai</p>
 <p>前缀和：Si = a1 + a2 + … +ai    S0 = 0</p>
 <h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3><p>快速求出原数组中某一段的和</p>
 <p>S[l, r] =<img src="https://download.yumie.xyz/img/image-20220126094636228.png" alt="image-20220126094636228" style="zoom:15%;" /></p>
@@ -387,6 +388,30 @@ show_date_time();
 <p>因此我们得出一维差分结论：给<code>a</code>数组中的<code>[l, r]</code>区间中的每一个数都加上<code>c</code>,只需对差分数组<code>b</code>做 <code>b[l] + = c</code>, <code>b[r+1] - = c</code>。时间复杂度为<code>O(1)</code>, 大大提高了效率。</p>
 <p><strong>总结</strong>：</p>
 <img src="https://download.yumie.xyz/img/image-20220126145236034.png" alt="image-20220126145236034" style="zoom: 67%;" />
+
+<p><strong>代码</strong>：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">n, m = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line"><span class="comment"># 初始化数组</span></span><br><span class="line">a = [<span class="number">0</span>] * (n + <span class="number">10</span>)</span><br><span class="line">b = [<span class="number">0</span>] * (n + <span class="number">10</span>)</span><br><span class="line">a[<span class="number">1</span>:] = [<span class="built_in">int</span>(i) <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">input</span>().split()]  <span class="comment"># 使a[0] = 0</span></span><br><span class="line"><span class="comment"># 构建差分数组</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, n + <span class="number">1</span>):</span><br><span class="line">    b[i] = a[i] - a[i - <span class="number">1</span>]</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(m):</span><br><span class="line">    l, r, c = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line">    b[l] += c  <span class="comment"># 表示将序列中[l, r]之间的每个数加上c</span></span><br><span class="line">    b[r + <span class="number">1</span>] -= c  <span class="comment"># 除去多余部分</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, n + <span class="number">1</span>):</span><br><span class="line">    b[i] += b[i - <span class="number">1</span>]  <span class="comment"># 求前缀和运算</span></span><br><span class="line">    <span class="built_in">print</span>(b[i], end=<span class="string">&#x27; &#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>成功AC</p>
+<img src="https://download.yumie.xyz/img/image-20220126161437967.png" alt="image-20220126161437967" style="zoom:50%;" />
+
+<h2 id="二维差分"><a href="#二维差分" class="headerlink" title="二维差分"></a>二维差分</h2><h2 id="双指针算法"><a href="#双指针算法" class="headerlink" title="双指针算法"></a>双指针算法</h2><p>用的非常多的一种算法</p>
+<p>很多时候意识不到</p>
+<p>归并排序、快速排序 其实就用到了双指针算法</p>
+<p>有两类：</p>
+<ul>
+<li>两个指针指向两个序列</li>
+<li>两个指针指向一个序列（比较多）</li>
+</ul>
+<img src="https://download.yumie.xyz/img/image-20220126163551156.png" alt="image-20220126163551156" style="zoom: 50%;" />
+
+<p><strong>最核心用途：</strong></p>
+<p>​    <img src="https://download.yumie.xyz/img/image-20220126163717730.png" alt="image-20220126163717730" style="zoom: 50%;" /></p>
+<p>把这样的暴力算法 优化到 <code>O(n)</code></p>
+<p><strong>典型例子</strong>：</p>
+<p>将 very like python这种字符串中的单词逐个输出，其中空格数量均为1</p>
+<p><strong>代码：</strong></p>
+<h2 id="位运算"><a href="#位运算" class="headerlink" title="位运算"></a>位运算</h2><h2 id="离散化"><a href="#离散化" class="headerlink" title="离散化"></a>离散化</h2><h2 id="区间合并"><a href="#区间合并" class="headerlink" title="区间合并"></a>区间合并</h2>
     </div>
 
     

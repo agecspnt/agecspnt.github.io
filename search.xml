@@ -712,9 +712,7 @@
 
 <span id="more"></span>
 
-
-
-<h2 id="前缀和"><a href="#前缀和" class="headerlink" title="前缀和"></a>前缀和</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>原数组：a1 a2 a3 … ai</p>
+<h1 id="第一章-基础算法"><a href="#第一章-基础算法" class="headerlink" title="第一章 基础算法"></a>第一章 基础算法</h1><h2 id="前缀和"><a href="#前缀和" class="headerlink" title="前缀和"></a>前缀和</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>原数组：a1 a2 a3 … ai</p>
 <p>前缀和：Si = a1 + a2 + … +ai    S0 = 0</p>
 <h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3><p>快速求出原数组中某一段的和</p>
 <p>S[l, r] =<img src="https://download.yumie.xyz/img/image-20220126094636228.png" alt="image-20220126094636228" style="zoom:15%;" /></p>
@@ -775,7 +773,31 @@
 <p><code>b[l] + c</code>，效果使得<code>a</code>数组中 <code>a[l]</code>及以后的数都加上了<code>c</code>(红色部分)，但我们只要求<code>l</code>到<code>r</code>区间加上<code>c</code>, 因此还需要执行 <code>b[r+1] - c</code>,让<code>a</code>数组中<code>a[r+1]</code>及往后的区间再减去<code>c</code>(绿色部分)，这样对于<code>a[r]</code> 以后区间的数相当于没有发生改变。</p>
 <p>因此我们得出一维差分结论：给<code>a</code>数组中的<code>[l, r]</code>区间中的每一个数都加上<code>c</code>,只需对差分数组<code>b</code>做 <code>b[l] + = c</code>, <code>b[r+1] - = c</code>。时间复杂度为<code>O(1)</code>, 大大提高了效率。</p>
 <p><strong>总结</strong>：</p>
-<img src="https://download.yumie.xyz/img/image-20220126145236034.png" alt="image-20220126145236034" style="zoom: 67%;" />]]></content>
+<img src="https://download.yumie.xyz/img/image-20220126145236034.png" alt="image-20220126145236034" style="zoom: 67%;" />
+
+<p><strong>代码</strong>：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">n, m = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line"><span class="comment"># 初始化数组</span></span><br><span class="line">a = [<span class="number">0</span>] * (n + <span class="number">10</span>)</span><br><span class="line">b = [<span class="number">0</span>] * (n + <span class="number">10</span>)</span><br><span class="line">a[<span class="number">1</span>:] = [<span class="built_in">int</span>(i) <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">input</span>().split()]  <span class="comment"># 使a[0] = 0</span></span><br><span class="line"><span class="comment"># 构建差分数组</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, n + <span class="number">1</span>):</span><br><span class="line">    b[i] = a[i] - a[i - <span class="number">1</span>]</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(m):</span><br><span class="line">    l, r, c = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line">    b[l] += c  <span class="comment"># 表示将序列中[l, r]之间的每个数加上c</span></span><br><span class="line">    b[r + <span class="number">1</span>] -= c  <span class="comment"># 除去多余部分</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, n + <span class="number">1</span>):</span><br><span class="line">    b[i] += b[i - <span class="number">1</span>]  <span class="comment"># 求前缀和运算</span></span><br><span class="line">    <span class="built_in">print</span>(b[i], end=<span class="string">&#x27; &#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>成功AC</p>
+<img src="https://download.yumie.xyz/img/image-20220126161437967.png" alt="image-20220126161437967" style="zoom:50%;" />
+
+<h2 id="二维差分"><a href="#二维差分" class="headerlink" title="二维差分"></a>二维差分</h2><h2 id="双指针算法"><a href="#双指针算法" class="headerlink" title="双指针算法"></a>双指针算法</h2><p>用的非常多的一种算法</p>
+<p>很多时候意识不到</p>
+<p>归并排序、快速排序 其实就用到了双指针算法</p>
+<p>有两类：</p>
+<ul>
+<li>两个指针指向两个序列</li>
+<li>两个指针指向一个序列（比较多）</li>
+</ul>
+<img src="https://download.yumie.xyz/img/image-20220126163551156.png" alt="image-20220126163551156" style="zoom: 50%;" />
+
+<p><strong>最核心用途：</strong></p>
+<p>​    <img src="https://download.yumie.xyz/img/image-20220126163717730.png" alt="image-20220126163717730" style="zoom: 50%;" /></p>
+<p>把这样的暴力算法 优化到 <code>O(n)</code></p>
+<p><strong>典型例子</strong>：</p>
+<p>将 very like python这种字符串中的单词逐个输出，其中空格数量均为1</p>
+<p><strong>代码：</strong></p>
+<h2 id="位运算"><a href="#位运算" class="headerlink" title="位运算"></a>位运算</h2><h2 id="离散化"><a href="#离散化" class="headerlink" title="离散化"></a>离散化</h2><h2 id="区间合并"><a href="#区间合并" class="headerlink" title="区间合并"></a>区间合并</h2>]]></content>
       <tags>
         <tag>蓝桥杯</tag>
         <tag>算法</tag>
@@ -871,6 +893,26 @@
 <p>a[:]看起来有点太像Perl。</p>
 <p>不同于切片标记法，不了解Python的人也会明白b是一个列表。</p>
 <p><strong>下次你看见[:]的时候试试使用list()替代，这样可以让你的代码更加可读。</strong></p>
+]]></content>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python中for循环的坑</title>
+    <url>/20220126/python%E4%B8%ADfor%E5%BE%AA%E7%8E%AF%E7%9A%84%E5%9D%91/</url>
+    <content><![CDATA[<p>刷题时遇到一个坑，记录下来</p>
+<span id="more"></span>
+
+<h4 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h4><p>今天在刷题时，用Python复现C++写的代码，发现结果怎么也不一样</p>
+<p>调试了半天才发现一个严重问题：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">5</span>):</span><br><span class="line">    i = <span class="number">3</span></span><br><span class="line">    <span class="built_in">print</span>(i)</span><br></pre></td></tr></table></figure>
+
+<p>这样的输出结果很明显 只可能是0 1 2 3 4   而不是3 3 3 3 3</p>
+<p>因为<strong>python每次循环开始时都会对i重新赋值</strong>，所以在for循环中对i的修改不会影响到下次循环！</p>
+<p><strong>这和C++中的for很不一样</strong></p>
+<h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><p>改写成while循环</p>
+<p>但是请注意：<strong>while循环每次i并不会自动+1，要手动在while的最后写出来！！</strong></p>
 ]]></content>
       <tags>
         <tag>Python</tag>
