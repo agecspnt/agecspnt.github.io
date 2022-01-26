@@ -31,79 +31,6 @@
       </tags>
   </entry>
   <entry>
-    <title>PyCharm(含专业版)安装教程</title>
-    <url>/20220119/PyCharm(%E5%90%AB%E4%B8%93%E4%B8%9A%E7%89%88)%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>介绍PyCharm的安装方法–小白也能轻松学会！</p>
-<img src="https://download.yumie.xyz/img/image-20220120222839647.png" alt="image-20220120222839647" style="zoom: 25%;" />
-
-<span id="more"></span>
-
-<h2 id="社区版和专业版的区别"><a href="#社区版和专业版的区别" class="headerlink" title="社区版和专业版的区别"></a>社区版和专业版的区别</h2><h3 id="功能上的区别："><a href="#功能上的区别：" class="headerlink" title="功能上的区别："></a>功能上的区别：</h3><p>PyCharm 专业版是功能最丰富的，与社区版相比，PyCharm 专业版增加了 Web 开发、Python Web 框架、Python 分析器、远程开发、支持数据库与 SQL 等更多高级功能。</p>
-<p>PyCharm 的社区版中没有 Web 开发、Python We 框架、Python 分析器、远程开发、支持数据库与 SQL 等这些功能。</p>
-<p>PyCharm 教育版的功能虽然比专业版会少一些，但与社区版相比，更加支持学校的教学工作。</p>
-<h3 id="其他区别"><a href="#其他区别" class="headerlink" title="其他区别:"></a>其他区别:</h3><p>PyCharm 的专业版是需要付费购买该软件的激活码才可以进行使用。</p>
-<p>PyCharm 的社区版提供给开发者免费使用的。</p>
-<p>PyCharm 的教育版只针对师生认证的用户才免费使用。</p>
-<h3 id="适用人群不同"><a href="#适用人群不同" class="headerlink" title="适用人群不同"></a>适用人群不同</h3><p>PyCharm 的专业版是适用于一些公司进行专业互联网开发适用，这需要使用公司投入一定资金。</p>
-<p>PyCharm 的社区版是提供给编程爱好者使用学术交流的，所以是免费提供的，其功能虽然不够全面，但能够满足日常开发需要。</p>
-<p>PyCharm 的教育版则是以公益为目的免费提供给各大学校进行编程教学，发展编程教育事业。</p>
-<p><strong>建议初学者选择社区版, 专业研究选择专业版.</strong></p>
-<h2 id="下载和安装"><a href="#下载和安装" class="headerlink" title="下载和安装"></a>下载和安装</h2><p>先下载需要的 Python 版本(官网下载)</p>
-<p><a href="https://www.python.org/">https://www.python.org/</a></p>
-<p>Python安装教程:</p>
-<p> <a href="https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624">https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624</a></p>
-<p>下载 PyCharm(官网下载)</p>
-<p><a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a></p>
-<p><img src="https://download.yumie.xyz/img/2021090603102472.png"></p>
-<p>左边是专业版, 右边是免费版(社区版)</p>
-<h2 id="白嫖专业版-可选"><a href="#白嫖专业版-可选" class="headerlink" title="白嫖专业版(可选)"></a>白嫖专业版(可选)</h2><blockquote>
-<p><strong>!!!社区版直接跳过这一步</strong></p>
-</blockquote>
-<p>如果是大学生, 可以在官网上认证, 免费试用一年, 但是时间太短, 我们采用一劳永逸的方法:</p>
-<p>安装完专业版, 选择试用, 先随便新建一个项目进入主界面</p>
-<p>找到 Settings/Preferences… -&gt; Plugins</p>
-<p><img src="https://download.yumie.xyz/img/image-20220119175443234.png" alt="image-20220119175443234"></p>
-<p><img src="https://download.yumie.xyz/img/image-20220119175502592.png" alt="image-20220119175502592"></p>
-<p><img src="https://download.yumie.xyz/img/image-20220119175511722.png" alt="image-20220119175511722"></p>
-<p>手动添加第三方插件仓库地址：<a href="https://plugins.zhile.io/">https://plugins.zhile.io</a></p>
-<p>搜索：IDE Eval Reset 插件进行安装</p>
-<p>安装成功之后, 首次运行</p>
-<p><img src="https://download.yumie.xyz/img/image-20220119175722751.png" alt="image-20220119175722751"></p>
-<p><img src="https://download.yumie.xyz/img/image-20220119175754232.png" alt="image-20220119175754232"></p>
-<p>勾选 Auto reset before per restart , 勾选之后点击 Reset</p>
-<p>接着一路 yes/ok, 重启 PyCharm 过后就可以了</p>
-<p>在每次 Pycharm 重启的时候都会自动续期</p>
-<p>这样就可以拥有无限的试用时间, 相当于免费了</p>
-<h2 id="初次打开-新建项目"><a href="#初次打开-新建项目" class="headerlink" title="初次打开, 新建项目"></a>初次打开, 新建项目</h2><p><img src="https://download.yumie.xyz/img/image-20220119175834654.png" alt="image-20220119175834654"></p>
-<p>我们点击 New Project</p>
-<p><img src="https://download.yumie.xyz/img/image-20220119175929740.png" alt="image-20220119175929740"></p>
-<p>建议不要把代码放在 c 盘, 因为很多人找不到这个位置在哪, 那么放在其他磁盘中就能解决这个问题</p>
-<p>其他的不用更改, 因为 PyCharm 会自动更改下面虚拟环境的路径</p>
-<p><strong>为什么要用虚拟环境???</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">在实际项目开发中，我们通常会根据自己的需求去下载各种相应的框架库，如 Scrapy、Beautiful Soup 等，但是可能每个项目使用的框架库并不一样，或使用框架的版本不一样，这样需要我们根据需求不断的更新或卸载相应的库。直接怼我们的 Python 环境操作会让我们的开发环境和项目造成很多不必要的麻烦，管理也相当混乱。</span><br></pre></td></tr></table></figure>
-
-<p>点击 Create</p>
-<p>那么现在项目就创建成功了，勾选 Show tips on startup，不用每次都打开欢迎界面，然后关闭即可。</p>
-<p>到现在, 项目已经创建完毕了</p>
-<h2 id="设置中文界面"><a href="#设置中文界面" class="headerlink" title="设置中文界面"></a>设置中文界面</h2><p>File &gt; Setting &gt; Plugins &gt; Marketplace</p>
-<p>搜索 Chinese</p>
-<p><img src="https://download.yumie.xyz/img/image-20220119180021047.png" alt="image-20220119180021047"></p>
-<p>安装这个下载量最多的</p>
-<p>完事后重启 PyCharm 就 ok 了</p>
-<h2 id="下载插件-库速度太慢-换源"><a href="#下载插件-库速度太慢-换源" class="headerlink" title="下载插件/库速度太慢? 换源!"></a>下载插件/库速度太慢? 换源!</h2><p>打开 settings </p>
-<p><img src="https://download.yumie.xyz/img/image-20220119180230546.png" alt="image-20220119180230546"></p>
-<p><img src="https://download.yumie.xyz/img/image-20220119180244617.png" alt="image-20220119180244617"></p>
-<p><img src="https://download.yumie.xyz/img/image-20220119180254596.png" alt="image-20220119180254596"></p>
-<p><img src="https://download.yumie.xyz/img/image-20220119180302962.png" alt="image-20220119180302962"></p>
-<p>输入清华源 <a href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a> 点击 ok</p>
-<p>以后再在国内下载第三方库, 速度就会快很多了</p>
-]]></content>
-      <tags>
-        <tag>Python</tag>
-        <tag>开发环境</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Next主题汇总</title>
     <url>/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/</url>
     <content><![CDATA[<p>Github Pages + Hexo + Next主题</p>
@@ -265,25 +192,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Python版的闰年判断</title>
-    <url>/20220120/Python%E7%89%88%E7%9A%84%E9%97%B0%E5%B9%B4%E5%88%A4%E6%96%AD/</url>
-    <content><![CDATA[<p>刷题记录</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120222441033.png" alt="image-20220120222441033"></p>
-<span id="more"></span>
-
-<p>闰年条件总是记不住？</p>
-<p>Python内置库calendar帮你解决！</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> calendar</span><br><span class="line">x = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="keyword">if</span> calendar.isleap(x):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;yes&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;no&quot;</span>)</span><br></pre></td></tr></table></figure>
-
-<p>再也不用担心忘记闰年的判断条件了</p>
-]]></content>
-      <tags>
-        <tag>Python</tag>
-        <tag>蓝桥杯</tag>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python快速排序</title>
     <url>/20220120/Python%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</url>
     <content><![CDATA[<p>刷题记录</p>
@@ -299,6 +207,99 @@
 <p><img src="https://download.yumie.xyz/img/image-20220120214327522.png" alt="image-20220120214327522"></p>
 <p>写了这道题才知道，之前数据结构课上学的快速排序我记错了（考试当然也写错了）。</p>
 <p>它是每一轮左右两边要各找到一个数再进行交换，而不是一边找到就交换。</p>
+]]></content>
+      <tags>
+        <tag>Python</tag>
+        <tag>蓝桥杯</tag>
+        <tag>算法</tag>
+        <tag>数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PyCharm(含专业版)安装教程</title>
+    <url>/20220119/PyCharm(%E5%90%AB%E4%B8%93%E4%B8%9A%E7%89%88)%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>介绍PyCharm的安装方法–小白也能轻松学会！</p>
+<img src="https://download.yumie.xyz/img/image-20220120222839647.png" alt="image-20220120222839647" style="zoom: 25%;" />
+
+<span id="more"></span>
+
+<h2 id="社区版和专业版的区别"><a href="#社区版和专业版的区别" class="headerlink" title="社区版和专业版的区别"></a>社区版和专业版的区别</h2><h3 id="功能上的区别："><a href="#功能上的区别：" class="headerlink" title="功能上的区别："></a>功能上的区别：</h3><p>PyCharm 专业版是功能最丰富的，与社区版相比，PyCharm 专业版增加了 Web 开发、Python Web 框架、Python 分析器、远程开发、支持数据库与 SQL 等更多高级功能。</p>
+<p>PyCharm 的社区版中没有 Web 开发、Python We 框架、Python 分析器、远程开发、支持数据库与 SQL 等这些功能。</p>
+<p>PyCharm 教育版的功能虽然比专业版会少一些，但与社区版相比，更加支持学校的教学工作。</p>
+<h3 id="其他区别"><a href="#其他区别" class="headerlink" title="其他区别:"></a>其他区别:</h3><p>PyCharm 的专业版是需要付费购买该软件的激活码才可以进行使用。</p>
+<p>PyCharm 的社区版提供给开发者免费使用的。</p>
+<p>PyCharm 的教育版只针对师生认证的用户才免费使用。</p>
+<h3 id="适用人群不同"><a href="#适用人群不同" class="headerlink" title="适用人群不同"></a>适用人群不同</h3><p>PyCharm 的专业版是适用于一些公司进行专业互联网开发适用，这需要使用公司投入一定资金。</p>
+<p>PyCharm 的社区版是提供给编程爱好者使用学术交流的，所以是免费提供的，其功能虽然不够全面，但能够满足日常开发需要。</p>
+<p>PyCharm 的教育版则是以公益为目的免费提供给各大学校进行编程教学，发展编程教育事业。</p>
+<p><strong>建议初学者选择社区版, 专业研究选择专业版.</strong></p>
+<h2 id="下载和安装"><a href="#下载和安装" class="headerlink" title="下载和安装"></a>下载和安装</h2><p>先下载需要的 Python 版本(官网下载)</p>
+<p><a href="https://www.python.org/">https://www.python.org/</a></p>
+<p>Python安装教程:</p>
+<p> <a href="https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624">https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624</a></p>
+<p>下载 PyCharm(官网下载)</p>
+<p><a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a></p>
+<p><img src="https://download.yumie.xyz/img/2021090603102472.png"></p>
+<p>左边是专业版, 右边是免费版(社区版)</p>
+<h2 id="白嫖专业版-可选"><a href="#白嫖专业版-可选" class="headerlink" title="白嫖专业版(可选)"></a>白嫖专业版(可选)</h2><blockquote>
+<p><strong>!!!社区版直接跳过这一步</strong></p>
+</blockquote>
+<p>如果是大学生, 可以在官网上认证, 免费试用一年, 但是时间太短, 我们采用一劳永逸的方法:</p>
+<p>安装完专业版, 选择试用, 先随便新建一个项目进入主界面</p>
+<p>找到 Settings/Preferences… -&gt; Plugins</p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175443234.png" alt="image-20220119175443234"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175502592.png" alt="image-20220119175502592"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175511722.png" alt="image-20220119175511722"></p>
+<p>手动添加第三方插件仓库地址：<a href="https://plugins.zhile.io/">https://plugins.zhile.io</a></p>
+<p>搜索：IDE Eval Reset 插件进行安装</p>
+<p>安装成功之后, 首次运行</p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175722751.png" alt="image-20220119175722751"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175754232.png" alt="image-20220119175754232"></p>
+<p>勾选 Auto reset before per restart , 勾选之后点击 Reset</p>
+<p>接着一路 yes/ok, 重启 PyCharm 过后就可以了</p>
+<p>在每次 Pycharm 重启的时候都会自动续期</p>
+<p>这样就可以拥有无限的试用时间, 相当于免费了</p>
+<h2 id="初次打开-新建项目"><a href="#初次打开-新建项目" class="headerlink" title="初次打开, 新建项目"></a>初次打开, 新建项目</h2><p><img src="https://download.yumie.xyz/img/image-20220119175834654.png" alt="image-20220119175834654"></p>
+<p>我们点击 New Project</p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175929740.png" alt="image-20220119175929740"></p>
+<p>建议不要把代码放在 c 盘, 因为很多人找不到这个位置在哪, 那么放在其他磁盘中就能解决这个问题</p>
+<p>其他的不用更改, 因为 PyCharm 会自动更改下面虚拟环境的路径</p>
+<p><strong>为什么要用虚拟环境???</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">在实际项目开发中，我们通常会根据自己的需求去下载各种相应的框架库，如 Scrapy、Beautiful Soup 等，但是可能每个项目使用的框架库并不一样，或使用框架的版本不一样，这样需要我们根据需求不断的更新或卸载相应的库。直接怼我们的 Python 环境操作会让我们的开发环境和项目造成很多不必要的麻烦，管理也相当混乱。</span><br></pre></td></tr></table></figure>
+
+<p>点击 Create</p>
+<p>那么现在项目就创建成功了，勾选 Show tips on startup，不用每次都打开欢迎界面，然后关闭即可。</p>
+<p>到现在, 项目已经创建完毕了</p>
+<h2 id="设置中文界面"><a href="#设置中文界面" class="headerlink" title="设置中文界面"></a>设置中文界面</h2><p>File &gt; Setting &gt; Plugins &gt; Marketplace</p>
+<p>搜索 Chinese</p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180021047.png" alt="image-20220119180021047"></p>
+<p>安装这个下载量最多的</p>
+<p>完事后重启 PyCharm 就 ok 了</p>
+<h2 id="下载插件-库速度太慢-换源"><a href="#下载插件-库速度太慢-换源" class="headerlink" title="下载插件/库速度太慢? 换源!"></a>下载插件/库速度太慢? 换源!</h2><p>打开 settings </p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180230546.png" alt="image-20220119180230546"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180244617.png" alt="image-20220119180244617"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180254596.png" alt="image-20220119180254596"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180302962.png" alt="image-20220119180302962"></p>
+<p>输入清华源 <a href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a> 点击 ok</p>
+<p>以后再在国内下载第三方库, 速度就会快很多了</p>
+]]></content>
+      <tags>
+        <tag>Python</tag>
+        <tag>开发环境</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python归并排序</title>
+    <url>/20220120/Python%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</url>
+    <content><![CDATA[<p>acwing习题</p>
+<img src="https://download.yumie.xyz/img/image-20220120222139682.png" alt="image-20220120222139682" style="zoom:25%;" />
+
+<span id="more"></span>
+
+<p><img src="https://download.yumie.xyz/img/image-20220120214537780.png" alt="image-20220120214537780"></p>
+<p>代码：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">merge_sort</span>(<span class="params">array</span>):</span></span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(array) &lt;= <span class="number">1</span>:</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line">    mid = <span class="built_in">len</span>(array) // <span class="number">2</span></span><br><span class="line">    L = array[:mid]</span><br><span class="line">    R = array[mid:]</span><br><span class="line">    merge_sort(L)</span><br><span class="line">    merge_sort(R)</span><br><span class="line"> </span><br><span class="line">    i = j = k = <span class="number">0</span></span><br><span class="line">    <span class="keyword">while</span> i &lt; <span class="built_in">len</span>(L) <span class="keyword">and</span> j &lt; <span class="built_in">len</span>(R):</span><br><span class="line">        <span class="keyword">if</span> L[i] &lt;= R[j]:</span><br><span class="line">            array[k] = L[i]</span><br><span class="line">            i += <span class="number">1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            array[k] = R[j]</span><br><span class="line">            j += <span class="number">1</span></span><br><span class="line">        k += <span class="number">1</span></span><br><span class="line">    <span class="comment"># 如果左边/右边还有剩余的，则把剩余的添加到array中</span></span><br><span class="line">    <span class="keyword">while</span> i &lt; <span class="built_in">len</span>(L):</span><br><span class="line">        array[k] = L[i]</span><br><span class="line">        k += <span class="number">1</span></span><br><span class="line">        i += <span class="number">1</span></span><br><span class="line">    <span class="keyword">while</span> j &lt; <span class="built_in">len</span>(R):</span><br><span class="line">        array[k] = R[j]</span><br><span class="line">        k += <span class="number">1</span></span><br><span class="line">        j += <span class="number">1</span></span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    n = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">    list1 = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split()))</span><br><span class="line">    merge_sort(list1)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> list1:</span><br><span class="line">        <span class="built_in">print</span>(i, end=<span class="string">&quot; &quot;</span>)</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <tags>
         <tag>Python</tag>
@@ -329,23 +330,110 @@
       </tags>
   </entry>
   <entry>
-    <title>Python归并排序</title>
-    <url>/20220120/Python%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</url>
-    <content><![CDATA[<p>acwing习题</p>
-<img src="https://download.yumie.xyz/img/image-20220120222139682.png" alt="image-20220120222139682" style="zoom:25%;" />
-
+    <title>Python版的闰年判断</title>
+    <url>/20220120/Python%E7%89%88%E7%9A%84%E9%97%B0%E5%B9%B4%E5%88%A4%E6%96%AD/</url>
+    <content><![CDATA[<p>刷题记录</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120222441033.png" alt="image-20220120222441033"></p>
 <span id="more"></span>
 
-<p><img src="https://download.yumie.xyz/img/image-20220120214537780.png" alt="image-20220120214537780"></p>
-<p>代码：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">merge_sort</span>(<span class="params">array</span>):</span></span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(array) &lt;= <span class="number">1</span>:</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line">    mid = <span class="built_in">len</span>(array) // <span class="number">2</span></span><br><span class="line">    L = array[:mid]</span><br><span class="line">    R = array[mid:]</span><br><span class="line">    merge_sort(L)</span><br><span class="line">    merge_sort(R)</span><br><span class="line"> </span><br><span class="line">    i = j = k = <span class="number">0</span></span><br><span class="line">    <span class="keyword">while</span> i &lt; <span class="built_in">len</span>(L) <span class="keyword">and</span> j &lt; <span class="built_in">len</span>(R):</span><br><span class="line">        <span class="keyword">if</span> L[i] &lt;= R[j]:</span><br><span class="line">            array[k] = L[i]</span><br><span class="line">            i += <span class="number">1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            array[k] = R[j]</span><br><span class="line">            j += <span class="number">1</span></span><br><span class="line">        k += <span class="number">1</span></span><br><span class="line">    <span class="comment"># 如果左边/右边还有剩余的，则把剩余的添加到array中</span></span><br><span class="line">    <span class="keyword">while</span> i &lt; <span class="built_in">len</span>(L):</span><br><span class="line">        array[k] = L[i]</span><br><span class="line">        k += <span class="number">1</span></span><br><span class="line">        i += <span class="number">1</span></span><br><span class="line">    <span class="keyword">while</span> j &lt; <span class="built_in">len</span>(R):</span><br><span class="line">        array[k] = R[j]</span><br><span class="line">        k += <span class="number">1</span></span><br><span class="line">        j += <span class="number">1</span></span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    n = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">    list1 = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split()))</span><br><span class="line">    merge_sort(list1)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> list1:</span><br><span class="line">        <span class="built_in">print</span>(i, end=<span class="string">&quot; &quot;</span>)</span><br></pre></td></tr></table></figure>
+<p>闰年条件总是记不住？</p>
+<p>Python内置库calendar帮你解决！</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> calendar</span><br><span class="line">x = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="keyword">if</span> calendar.isleap(x):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;yes&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;no&quot;</span>)</span><br></pre></td></tr></table></figure>
 
+<p>再也不用担心忘记闰年的判断条件了</p>
 ]]></content>
       <tags>
         <tag>Python</tag>
         <tag>蓝桥杯</tag>
         <tag>算法</tag>
-        <tag>数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue框架</title>
+    <url>/20220120/Vue%E6%A1%86%E6%9E%B6/</url>
+    <content><![CDATA[<p>Vue框架的基础知识</p>
+<img src="https://download.yumie.xyz/img/image-20220120222752944.png" alt="image-20220120222752944" style="zoom: 33%;" />
+
+<span id="more"></span>
+
+<h1 id="什么是vue？"><a href="#什么是vue？" class="headerlink" title="什么是vue？"></a><strong>什么是vue</strong>？</h1><p>是一套构建用户界面的<strong>渐进式</strong>（用到哪一块就用哪一块，不需要全部用上）前端框架，Vue 的核心库只关注视图层</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120165314243.png" alt="image-20220120165314243"></p>
+<h1 id="对比其他框架-React"><a href="#对比其他框架-React" class="headerlink" title="对比其他框架-React"></a>对比其他框架-React</h1><p>React 和 Vue 有许多相似之处，它们都有使用 Virtual DOM；提供了响应式（Reactive）和组件化（Composable）的视图组件。将注意力集中保持在核心库，而将其他功能如路由和全局状态管理交给相关的库。React 比 Vue 有更丰富的生态系统</p>
+<p>都有支持native的方案，React的RN，vue的Wee下</p>
+<p>都支持SSR服务端渲染</p>
+<p>都支持props进行父子组件间的通信</p>
+<p>性能方面：React 和 Vue 在大部分常见场景下都能提供近似的性能。通常 Vue 会有少量优势，因为 Vue 的 Virtual DOM 实现相对更为轻量一些。</p>
+<p><strong>不同之处就是：</strong></p>
+<ul>
+<li>数据绑定方面，vue实现了数据的双向数据绑定，react数据流动是单向的</li>
+<li>virtual DOM不一样,vue会跟踪每一个组件的依赖关系,不需要重新渲染整个组件树.而对于React而言,每当应用的状态被改变时,全部组件都会重新渲染,所以react中会需要shouldComponentUpdate这个生命周期函数方法来进行控制</li>
+<li>state对象在react应用中不可变的,需要使用setState方法更新状态;在vue中,state对象不是必须的,数据由data属性在vue对象中管理（如果要操作直接this.xxx）</li>
+<li>组件写法不一样, React推荐的做法是 JSX , 也就是把HTML和CSS全都写进JavaScript了,即’all in js’; Vue推荐的做法是webpack+vue-loader的单文件组件格式,即html,css,js写在同一个文件</li>
+</ul>
+<h1 id="对比其他框架-angular"><a href="#对比其他框架-angular" class="headerlink" title="对比其他框架-angular"></a>对比其他框架-angular</h1><p>在性能方面，这两个框架都非常的快，我们也没有足够的实际应用数据来下一个结论。如果你一定想看些数据的话，你可以参考这个第三方跑分。单就这个跑分来看，Vue 似乎比 Angular 要更快一些。</p>
+<p>在大小方面，最近的 Angular 版本中在使用了 AOT 和 tree-shaking 技术后使得最终的代码体积减小了许多。但即使如此，一个包含了 vuex + vue-router 的 Vue 项目 (30kb gzipped) 相比使用了这些优化的 Angular CLI 生成的默认项目尺寸 (~130kb) 还是要小的多。</p>
+<p>灵活性：Vue 相比于 Angular 更加灵活，Vue 官方提供了构建工具来协助你构建项目，但它并不限制你去如何组织你的应用代码。有人可能喜欢有严格的代码组织规范，但也有开发者喜欢更灵活自由的方式</p>
+<h1 id="vue-js的核心特点—响应的数据绑定"><a href="#vue-js的核心特点—响应的数据绑定" class="headerlink" title="vue.js的核心特点—响应的数据绑定"></a><strong>vue.js的核心特点—响应的数据绑定</strong></h1><p>传统的js操作页面：在以前使用js操作页面的时候是这样的，需要操作某个html元素的数据，就的使用js代码获取元素然后在处理业务逻辑</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120165535317.png" alt="image-20220120165535317"></p>
+<p>响应式数据绑定的方式操作页面，可以直接使用像下面代码那样的写法就可以将数据填充到页面中</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120165556815.png" alt="image-20220120165556815"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div id=&quot;app&quot;&gt;</span><br><span class="line">    &#123;&#123; message &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &#x27;app&#x27;,</span><br><span class="line">  data () &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &#x27;Welcome to Your Vue.js App&#x27;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;style&gt;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="vue-js的核心特点—可组合的视图组件"><a href="#vue-js的核心特点—可组合的视图组件" class="headerlink" title="vue.js的核心特点—可组合的视图组件"></a><strong>vue.js的核心特点—可组合的视图组件</strong></h1><p>一个页面映射为组件树。划分组件可维护、可重用、可测试，也就是一个页面由多个组件组合而成</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120165641632.png" alt="image-20220120165641632"></p>
+<p>vue中实现组件引入示例</p>
+<p>第一步：import导入需要引入的组件文件；</p>
+<p>第二步：注册组件；</p>
+<p>第三步：在需要引入组件的文件中加上组件标签（这个标签的标签名就是注册的组件名字，多个单词的和这里有xx-xx的形式）</p>
+<p>需要注意的是：组件可以嵌套引入，也就是说组件可以引入其他组件</p>
+<p>首先创建一个组件，用于被引入的组件，组件名字叫Hello.vue</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;h2&gt;Essential Links&lt;/h2&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &#x27;hello&#x27;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line"></span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+
+<p>然后在需要引入的组件中，先使用import导入组件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import Hello from &#x27;./components/Hello&#x27;</span><br></pre></td></tr></table></figure>
+
+<p>然后使用components注册这个组件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">components: &#123;</span><br><span class="line">    Hello</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在需要引入组件的文件中加上组件标签（这个标签的标签名就是注册的组件名字，多个单词的和这里有xx-xx的形式）</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;hello&gt;&lt;/hello&gt;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>前端</tag>
+        <tag>Vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>利用Python的yield语句实现杨辉三角</title>
+    <url>/20220120/%E5%88%A9%E7%94%A8Python%E7%9A%84yield%E8%AF%AD%E5%8F%A5%E5%AE%9E%E7%8E%B0%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92/</url>
+    <content><![CDATA[<p>刷题记录</p>
+<img src="https://download.yumie.xyz/img/image-20220120222649370.png" alt="image-20220120222649370" style="zoom: 50%;" />
+
+<span id="more"></span>
+
+<h1 id="简要理解"><a href="#简要理解" class="headerlink" title="简要理解"></a>简要理解</h1><p>yield就是 return 返回一个值，并且记住这个返回的位置，下次迭代就从这个位置后(下一行)开始。</p>
+<p>Python 中的for A in B语法中的B是一个可迭代对象，而生成器(generator)是可以迭代的</p>
+<p>迭代器与生成器的讲解：<a href="https://www.runoob.com/python3/python3-iterator-generator.html">Python3 迭代器与生成器 | 菜鸟教程 (runoob.com)</a></p>
+<h1 id="为什么要有生成器"><a href="#为什么要有生成器" class="headerlink" title="为什么要有生成器?"></a>为什么要有生成器?</h1><p>列表所有数据都在内存中，如果有海量数据的话将会非常耗内存。</p>
+<p>如：仅仅需要访问前面几个元素，那后面绝大多数元素占用的空间都白白浪费了。</p>
+<p>如果列表元素按照某种算法推算出来，那我们就可以在循环的过程中不断推算出后续的元素，这样就不必创建完整的list，从而节省大量的空间。</p>
+<p>简单一句话：我又想要得到庞大的数据，又想让它占用空间少，那就用生成器</p>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">triangles</span>():</span></span><br><span class="line">    L = [<span class="number">1</span>]</span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">        <span class="keyword">yield</span> L</span><br><span class="line">        L.append(<span class="number">0</span>)</span><br><span class="line">        L = [L[i] + L[i - <span class="number">1</span>] <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(L))]</span><br><span class="line"> </span><br><span class="line"><span class="keyword">for</span> a <span class="keyword">in</span> triangles():</span><br><span class="line">    <span class="built_in">print</span>(a)</span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(a) &gt; <span class="number">20</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="小细节"><a href="#小细节" class="headerlink" title="小细节"></a>小细节</h1><ul>
+<li><p>L.append(0) 的作用是保证下一条语句的正确执行，这也是杨辉三角算法的其中一步</p>
+</li>
+<li><p>这里用a和len(a)来控制输出的长度，可以不用定义n = 0，简化了代码</p>
+</li>
+<li><p>列表推导式可以很简洁巧妙地实现杨辉三角的核心算法</p>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>Python</tag>
+        <tag>蓝桥杯</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
@@ -457,6 +545,8 @@
 <p>创建一个新的docker 名字为flask01**   <strong>做8090:81映射</strong>：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo docker run -it -d --name flask01 -p 8090:81  flask</span><br></pre></td></tr></table></figure>
 
+<p>433f54edf19e</p>
+<p> sudo docker exec -it 433f54edf19e /bin/bash</p>
 ]]></content>
       <tags>
         <tag>Testing</tag>
@@ -488,99 +578,24 @@
       </tags>
   </entry>
   <entry>
-    <title>Vue框架</title>
-    <url>/20220120/Vue%E6%A1%86%E6%9E%B6/</url>
-    <content><![CDATA[<p>Vue框架的基础知识</p>
-<img src="https://download.yumie.xyz/img/image-20220120222752944.png" alt="image-20220120222752944" style="zoom: 33%;" />
+    <title>前缀和(Python实现)</title>
+    <url>/20220120/%E5%89%8D%E7%BC%80%E5%92%8C-Python%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[<p>acwing练习题</p>
+<img src="https://download.yumie.xyz/img/image-20220120221645268.png" alt="image-20220120221645268" style="zoom:50%;" />
 
 <span id="more"></span>
 
-<h1 id="什么是vue？"><a href="#什么是vue？" class="headerlink" title="什么是vue？"></a><strong>什么是vue</strong>？</h1><p>是一套构建用户界面的<strong>渐进式</strong>（用到哪一块就用哪一块，不需要全部用上）前端框架，Vue 的核心库只关注视图层</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120165314243.png" alt="image-20220120165314243"></p>
-<h1 id="对比其他框架-React"><a href="#对比其他框架-React" class="headerlink" title="对比其他框架-React"></a>对比其他框架-React</h1><p>React 和 Vue 有许多相似之处，它们都有使用 Virtual DOM；提供了响应式（Reactive）和组件化（Composable）的视图组件。将注意力集中保持在核心库，而将其他功能如路由和全局状态管理交给相关的库。React 比 Vue 有更丰富的生态系统</p>
-<p>都有支持native的方案，React的RN，vue的Wee下</p>
-<p>都支持SSR服务端渲染</p>
-<p>都支持props进行父子组件间的通信</p>
-<p>性能方面：React 和 Vue 在大部分常见场景下都能提供近似的性能。通常 Vue 会有少量优势，因为 Vue 的 Virtual DOM 实现相对更为轻量一些。</p>
-<p><strong>不同之处就是：</strong></p>
-<ul>
-<li>数据绑定方面，vue实现了数据的双向数据绑定，react数据流动是单向的</li>
-<li>virtual DOM不一样,vue会跟踪每一个组件的依赖关系,不需要重新渲染整个组件树.而对于React而言,每当应用的状态被改变时,全部组件都会重新渲染,所以react中会需要shouldComponentUpdate这个生命周期函数方法来进行控制</li>
-<li>state对象在react应用中不可变的,需要使用setState方法更新状态;在vue中,state对象不是必须的,数据由data属性在vue对象中管理（如果要操作直接this.xxx）</li>
-<li>组件写法不一样, React推荐的做法是 JSX , 也就是把HTML和CSS全都写进JavaScript了,即’all in js’; Vue推荐的做法是webpack+vue-loader的单文件组件格式,即html,css,js写在同一个文件</li>
-</ul>
-<h1 id="对比其他框架-angular"><a href="#对比其他框架-angular" class="headerlink" title="对比其他框架-angular"></a>对比其他框架-angular</h1><p>在性能方面，这两个框架都非常的快，我们也没有足够的实际应用数据来下一个结论。如果你一定想看些数据的话，你可以参考这个第三方跑分。单就这个跑分来看，Vue 似乎比 Angular 要更快一些。</p>
-<p>在大小方面，最近的 Angular 版本中在使用了 AOT 和 tree-shaking 技术后使得最终的代码体积减小了许多。但即使如此，一个包含了 vuex + vue-router 的 Vue 项目 (30kb gzipped) 相比使用了这些优化的 Angular CLI 生成的默认项目尺寸 (~130kb) 还是要小的多。</p>
-<p>灵活性：Vue 相比于 Angular 更加灵活，Vue 官方提供了构建工具来协助你构建项目，但它并不限制你去如何组织你的应用代码。有人可能喜欢有严格的代码组织规范，但也有开发者喜欢更灵活自由的方式</p>
-<h1 id="vue-js的核心特点—响应的数据绑定"><a href="#vue-js的核心特点—响应的数据绑定" class="headerlink" title="vue.js的核心特点—响应的数据绑定"></a><strong>vue.js的核心特点—响应的数据绑定</strong></h1><p>传统的js操作页面：在以前使用js操作页面的时候是这样的，需要操作某个html元素的数据，就的使用js代码获取元素然后在处理业务逻辑</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120165535317.png" alt="image-20220120165535317"></p>
-<p>响应式数据绑定的方式操作页面，可以直接使用像下面代码那样的写法就可以将数据填充到页面中</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120165556815.png" alt="image-20220120165556815"></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div id=&quot;app&quot;&gt;</span><br><span class="line">    &#123;&#123; message &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &#x27;app&#x27;,</span><br><span class="line">  data () &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &#x27;Welcome to Your Vue.js App&#x27;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;style&gt;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="https://download.yumie.xyz/img/image-20220120221034615.png" alt="image-20220120221034615"></p>
+<p>代码：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">n, m = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line">a = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split()))</span><br><span class="line">prefix = [<span class="number">0</span>] * (n + <span class="number">2</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">    prefix[i + <span class="number">1</span>] = prefix[i] + a[i]  <span class="comment"># 求前缀和</span></span><br><span class="line"><span class="comment"># print(prefix)</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(m):</span><br><span class="line">    l, r = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line">    <span class="built_in">print</span>(prefix[r] - prefix[l - <span class="number">1</span>])  <span class="comment"># 求部分和</span></span><br></pre></td></tr></table></figure>
 
-<h1 id="vue-js的核心特点—可组合的视图组件"><a href="#vue-js的核心特点—可组合的视图组件" class="headerlink" title="vue.js的核心特点—可组合的视图组件"></a><strong>vue.js的核心特点—可组合的视图组件</strong></h1><p>一个页面映射为组件树。划分组件可维护、可重用、可测试，也就是一个页面由多个组件组合而成</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120165641632.png" alt="image-20220120165641632"></p>
-<p>vue中实现组件引入示例</p>
-<p>第一步：import导入需要引入的组件文件；</p>
-<p>第二步：注册组件；</p>
-<p>第三步：在需要引入组件的文件中加上组件标签（这个标签的标签名就是注册的组件名字，多个单词的和这里有xx-xx的形式）</p>
-<p>需要注意的是：组件可以嵌套引入，也就是说组件可以引入其他组件</p>
-<p>首先创建一个组件，用于被引入的组件，组件名字叫Hello.vue</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;h2&gt;Essential Links&lt;/h2&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &#x27;hello&#x27;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line"></span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
-
-<p>然后在需要引入的组件中，先使用import导入组件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import Hello from &#x27;./components/Hello&#x27;</span><br></pre></td></tr></table></figure>
-
-<p>然后使用components注册这个组件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">components: &#123;</span><br><span class="line">    Hello</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>在需要引入组件的文件中加上组件标签（这个标签的标签名就是注册的组件名字，多个单词的和这里有xx-xx的形式）</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;hello&gt;&lt;/hello&gt;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>前端</tag>
-        <tag>Vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>差分</title>
-    <url>/20220126/%E5%B7%AE%E5%88%86/</url>
-    <content><![CDATA[<h1 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h1><p><img src="https://download.yumie.xyz/img/image-20220126094845832.png" alt="image-20220126094845832"></p>
-<h1 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h1><img src="https://download.yumie.xyz/img/image-20220126094907156.png" alt="image-20220126094907156" style="zoom:50%;" />
-
-<p>让l到r这个范围中的每个数都+c（执行同样的操作）</p>
-<img src="https://download.yumie.xyz/img/image-20220126094923922.png" alt="image-20220126094923922"  />]]></content>
-      <tags>
-        <tag>蓝桥杯</tag>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>利用Python的yield语句实现杨辉三角</title>
-    <url>/20220120/%E5%88%A9%E7%94%A8Python%E7%9A%84yield%E8%AF%AD%E5%8F%A5%E5%AE%9E%E7%8E%B0%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92/</url>
-    <content><![CDATA[<p>刷题记录</p>
-<img src="https://download.yumie.xyz/img/image-20220120222649370.png" alt="image-20220120222649370" style="zoom: 50%;" />
-
-<span id="more"></span>
-
-<h1 id="简要理解"><a href="#简要理解" class="headerlink" title="简要理解"></a>简要理解</h1><p>yield就是 return 返回一个值，并且记住这个返回的位置，下次迭代就从这个位置后(下一行)开始。</p>
-<p>Python 中的for A in B语法中的B是一个可迭代对象，而生成器(generator)是可以迭代的</p>
-<p>迭代器与生成器的讲解：<a href="https://www.runoob.com/python3/python3-iterator-generator.html">Python3 迭代器与生成器 | 菜鸟教程 (runoob.com)</a></p>
-<h1 id="为什么要有生成器"><a href="#为什么要有生成器" class="headerlink" title="为什么要有生成器?"></a>为什么要有生成器?</h1><p>列表所有数据都在内存中，如果有海量数据的话将会非常耗内存。</p>
-<p>如：仅仅需要访问前面几个元素，那后面绝大多数元素占用的空间都白白浪费了。</p>
-<p>如果列表元素按照某种算法推算出来，那我们就可以在循环的过程中不断推算出后续的元素，这样就不必创建完整的list，从而节省大量的空间。</p>
-<p>简单一句话：我又想要得到庞大的数据，又想让它占用空间少，那就用生成器</p>
-<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">triangles</span>():</span></span><br><span class="line">    L = [<span class="number">1</span>]</span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">        <span class="keyword">yield</span> L</span><br><span class="line">        L.append(<span class="number">0</span>)</span><br><span class="line">        L = [L[i] + L[i - <span class="number">1</span>] <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(L))]</span><br><span class="line"> </span><br><span class="line"><span class="keyword">for</span> a <span class="keyword">in</span> triangles():</span><br><span class="line">    <span class="built_in">print</span>(a)</span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(a) &gt; <span class="number">20</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="小细节"><a href="#小细节" class="headerlink" title="小细节"></a>小细节</h1><ul>
-<li><p>L.append(0) 的作用是保证下一条语句的正确执行，这也是杨辉三角算法的其中一步</p>
-</li>
-<li><p>这里用a和len(a)来控制输出的长度，可以不用定义n = 0，简化了代码</p>
-</li>
-<li><p>列表推导式可以很简洁巧妙地实现杨辉三角的核心算法</p>
-</li>
-</ul>
+<p>总结：</p>
+<p>最开始没把这道题放在眼里，也不知道要用前缀和算法去做。直接用切片索引出来，结果时间超限。</p>
+<p>后来去网上查了资料才知道前缀和这种算法：</p>
+<blockquote>
+<p>前缀和是一种重要的预处理，能大大降低查询的时间复杂度。</p>
+</blockquote>
+<p>咱们的代码先初始化一个数组，然后遍历数组求前缀和，最后在索引，就可以很快地求出来其中一段的和</p>
 ]]></content>
       <tags>
         <tag>Python</tag>
@@ -627,117 +642,6 @@
       </tags>
   </entry>
   <entry>
-    <title>子矩阵的和(Python实现)</title>
-    <url>/20220120/%E5%AD%90%E7%9F%A9%E9%98%B5%E7%9A%84%E5%92%8C-Python%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[<p>acwing练习题</p>
-<img src="https://download.yumie.xyz/img/image-20220120221524191.png" alt="image-20220120221524191" style="zoom:25%;" />
-
-<span id="more"></span>
-
-<p><img src="https://download.yumie.xyz/img/image-20220120221317903.png" alt="image-20220120221317903"></p>
-<p>代码：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 输入数据</span></span><br><span class="line">n, m, q = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line">matrix = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">    matrix.append(<span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())))</span><br><span class="line">query = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(q):</span><br><span class="line">    query.append(<span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())))</span><br><span class="line"> </span><br><span class="line">ls = [[<span class="number">0</span>] * (m + <span class="number">1</span>) <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n + <span class="number">1</span>)]  <span class="comment"># 初始化一个二维数组</span></span><br><span class="line"><span class="comment"># 这里尽量避免用两个列表来完成，因为这样会涉及到Python的深拷贝浅拷贝知识，初学者容易晕</span></span><br><span class="line"> </span><br><span class="line"><span class="comment"># 计算前缀和</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, n + <span class="number">1</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, m + <span class="number">1</span>):</span><br><span class="line">        ls[i][j] = ls[i - <span class="number">1</span>][j] + ls[i][j - <span class="number">1</span>] - ls[i - <span class="number">1</span>][j - <span class="number">1</span>] + matrix[i - <span class="number">1</span>][j - <span class="number">1</span>]</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 最后的计算</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(q):</span><br><span class="line">    x1, y1, x2, y2 = query[i][<span class="number">0</span>], query[i][<span class="number">1</span>], query[i][<span class="number">2</span>], query[i][<span class="number">3</span>]</span><br><span class="line">    <span class="built_in">print</span>(ls[x2][y2] - ls[x1 - <span class="number">1</span>][y2] - ls[x2][y1 - <span class="number">1</span>] + ls[x1 - <span class="number">1</span>][y1 - <span class="number">1</span>])</span><br></pre></td></tr></table></figure>
-
-<p> 这道题同样是使用前缀和的思想，再利用一些数学知识巧妙地通过求出的前缀和计算出子矩阵之和。跟之前发的一篇文章是差不多的，有兴趣的可以点开我的主页看上一篇文章。</p>
-<p>从网上找到的算法分析：</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120221351501.png" alt="image-20220120221351501"></p>
-<p><img src="https://download.yumie.xyz/img/image-20220120221400656.png" alt="image-20220120221400656"></p>
-<img src="https://download.yumie.xyz/img/image-20220120221420586.png" alt="image-20220120221420586" style="zoom: 25%;" />
-
-<p><img src="https://download.yumie.xyz/img/image-20220120221444427.png" alt="image-20220120221444427"></p>
-]]></content>
-      <tags>
-        <tag>Python</tag>
-        <tag>蓝桥杯</tag>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>前缀和</title>
-    <url>/20220126/%E5%89%8D%E7%BC%80%E5%92%8C/</url>
-    <content><![CDATA[<p>acwing前缀和算法总结</p>
-<span id="more"></span>
-
-<h1 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h1><p>原数组：a1 a2 a3 … ai</p>
-<p>前缀和：Si = a1 + a2 + … +ai    S0 = 0</p>
-<h1 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h1><p>快速求出原数组中某一段的和</p>
-<p>S[l, r] =<img src="https://download.yumie.xyz/img/image-20220126094636228.png" alt="image-20220126094636228" style="zoom:25%;" /></p>
-]]></content>
-      <tags>
-        <tag>蓝桥杯</tag>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解决 Win11 右键菜单和资源管理器卡顿</title>
-    <url>/20220120/%E8%A7%A3%E5%86%B3-Win11-%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E5%92%8C%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E5%8D%A1%E9%A1%BF/</url>
-    <content><![CDATA[<p>这个问题是win11新功能优化问题</p>
-<p>我们可以通过改回原来的右键菜单和资源管理器来解决</p>
-<img src="https://download.yumie.xyz/img/image-20220120221734565.png" alt="image-20220120221734565" style="zoom:50%;" />
-
-<span id="more"></span>
-
-<p><a href="https://download.yumie.xyz/img/win11%E6%94%B9%E5%8F%B3%E9%94%AE%E5%92%8C%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8.bat">https://download.yumie.xyz/img/win11改右键和资源管理器.bat</a></p>
-<p><img src="https://download.yumie.xyz/img/image-20220120215932065.png" alt="image-20220120215932065"></p>
-]]></content>
-      <tags>
-        <tag>Winodws</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>前缀和(Python实现)</title>
-    <url>/20220120/%E5%89%8D%E7%BC%80%E5%92%8C-Python%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[<p>acwing练习题</p>
-<img src="https://download.yumie.xyz/img/image-20220120221645268.png" alt="image-20220120221645268" style="zoom:50%;" />
-
-<span id="more"></span>
-
-<p><img src="https://download.yumie.xyz/img/image-20220120221034615.png" alt="image-20220120221034615"></p>
-<p>代码：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">n, m = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line">a = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split()))</span><br><span class="line">prefix = [<span class="number">0</span>] * (n + <span class="number">2</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">    prefix[i + <span class="number">1</span>] = prefix[i] + a[i]  <span class="comment"># 求前缀和</span></span><br><span class="line"><span class="comment"># print(prefix)</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(m):</span><br><span class="line">    l, r = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line">    <span class="built_in">print</span>(prefix[r] - prefix[l - <span class="number">1</span>])  <span class="comment"># 求部分和</span></span><br></pre></td></tr></table></figure>
-
-<p>总结：</p>
-<p>最开始没把这道题放在眼里，也不知道要用前缀和算法去做。直接用切片索引出来，结果时间超限。</p>
-<p>后来去网上查了资料才知道前缀和这种算法：</p>
-<blockquote>
-<p>前缀和是一种重要的预处理，能大大降低查询的时间复杂度。</p>
-</blockquote>
-<p>咱们的代码先初始化一个数组，然后遍历数组求前缀和，最后在索引，就可以很快地求出来其中一段的和</p>
-]]></content>
-      <tags>
-        <tag>Python</tag>
-        <tag>蓝桥杯</tag>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>试题 基础练习 Fibonacci数列 Python实现</title>
-    <url>/20220120/%E8%AF%95%E9%A2%98-%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0-Fibonacci%E6%95%B0%E5%88%97-Python%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[<p>刷题记录</p>
-<img src="https://download.yumie.xyz/img/image-20220120222333742.png" alt="image-20220120222333742" style="zoom: 50%;" />
-
-<span id="more"></span>
-
-<p><img src="https://download.yumie.xyz/img/image-20220120213914273.png" alt="image-20220120213914273"></p>
-<p>废话不多说，先上满分代码：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">n = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">F = [<span class="number">1</span>, <span class="number">1</span>, <span class="number">0</span>]</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>, n):</span><br><span class="line">    F[i % <span class="number">3</span>] = (F[(i - <span class="number">1</span>) % <span class="number">3</span>] + F[(i - <span class="number">2</span>) % <span class="number">3</span>]) % <span class="number">10007</span></span><br><span class="line"><span class="built_in">print</span>(F[(n - <span class="number">1</span>) % <span class="number">3</span>])</span><br></pre></td></tr></table></figure>
-
-<p>本题对时间和空间要求非常严格，尤其是最后两个测试</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120213957489.png" alt="image-20220120213957489"></p>
-<p>在室友的帮助下完美AC</p>
-<p>原理类似循环链表，通过巧妙地取余，实现在只有三个元素的列表内循环覆盖，最后再通过取余算出列表中的最新值</p>
-<p>通过循环覆盖方式解决了内存超限的问题</p>
-<p><img src="https://download.yumie.xyz/img/image-20220120214017840.png" alt="image-20220120214017840"></p>
-<p>在循环过程中就对10007取余，解决了超时问题</p>
-<p>室友提供的思路太强了！</p>
-]]></content>
-      <tags>
-        <tag>Python</tag>
-        <tag>蓝桥杯</tag>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>蓝桥杯：01字串 Python实现</title>
     <url>/20220120/%E8%93%9D%E6%A1%A5%E6%9D%AF%EF%BC%9A01%E5%AD%97%E4%B8%B2-Python%E5%AE%9E%E7%8E%B0/</url>
     <content><![CDATA[<p>刷题记录</p>
@@ -772,6 +676,204 @@
         <tag>Python</tag>
         <tag>蓝桥杯</tag>
         <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>子矩阵的和(Python实现)</title>
+    <url>/20220120/%E5%AD%90%E7%9F%A9%E9%98%B5%E7%9A%84%E5%92%8C-Python%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[<p>acwing练习题</p>
+<img src="https://download.yumie.xyz/img/image-20220120221524191.png" alt="image-20220120221524191" style="zoom:25%;" />
+
+<span id="more"></span>
+
+<p><img src="https://download.yumie.xyz/img/image-20220120221317903.png" alt="image-20220120221317903"></p>
+<p>代码：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 输入数据</span></span><br><span class="line">n, m, q = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line">matrix = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">    matrix.append(<span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())))</span><br><span class="line">query = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(q):</span><br><span class="line">    query.append(<span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())))</span><br><span class="line"> </span><br><span class="line">ls = [[<span class="number">0</span>] * (m + <span class="number">1</span>) <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n + <span class="number">1</span>)]  <span class="comment"># 初始化一个二维数组</span></span><br><span class="line"><span class="comment"># 这里尽量避免用两个列表来完成，因为这样会涉及到Python的深拷贝浅拷贝知识，初学者容易晕</span></span><br><span class="line"> </span><br><span class="line"><span class="comment"># 计算前缀和</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, n + <span class="number">1</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, m + <span class="number">1</span>):</span><br><span class="line">        ls[i][j] = ls[i - <span class="number">1</span>][j] + ls[i][j - <span class="number">1</span>] - ls[i - <span class="number">1</span>][j - <span class="number">1</span>] + matrix[i - <span class="number">1</span>][j - <span class="number">1</span>]</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 最后的计算</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(q):</span><br><span class="line">    x1, y1, x2, y2 = query[i][<span class="number">0</span>], query[i][<span class="number">1</span>], query[i][<span class="number">2</span>], query[i][<span class="number">3</span>]</span><br><span class="line">    <span class="built_in">print</span>(ls[x2][y2] - ls[x1 - <span class="number">1</span>][y2] - ls[x2][y1 - <span class="number">1</span>] + ls[x1 - <span class="number">1</span>][y1 - <span class="number">1</span>])</span><br></pre></td></tr></table></figure>
+
+<p> 这道题同样是使用前缀和的思想，再利用一些数学知识巧妙地通过求出的前缀和计算出子矩阵之和。跟之前发的一篇文章是差不多的，有兴趣的可以点开我的主页看上一篇文章。</p>
+<p>从网上找到的算法分析：</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120221351501.png" alt="image-20220120221351501"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220120221400656.png" alt="image-20220120221400656"></p>
+<img src="https://download.yumie.xyz/img/image-20220120221420586.png" alt="image-20220120221420586" style="zoom: 25%;" />
+
+<p><img src="https://download.yumie.xyz/img/image-20220120221444427.png" alt="image-20220120221444427"></p>
+]]></content>
+      <tags>
+        <tag>Python</tag>
+        <tag>蓝桥杯</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>算法学习笔记</title>
+    <url>/20220126/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>acwing上学习算法基础课的笔记</p>
+<img src="https://download.yumie.xyz/img/favicon.ico"  />
+
+<span id="more"></span>
+
+
+
+<h2 id="前缀和"><a href="#前缀和" class="headerlink" title="前缀和"></a>前缀和</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>原数组：a1 a2 a3 … ai</p>
+<p>前缀和：Si = a1 + a2 + … +ai    S0 = 0</p>
+<h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3><p>快速求出原数组中某一段的和</p>
+<p>S[l, r] =<img src="https://download.yumie.xyz/img/image-20220126094636228.png" alt="image-20220126094636228" style="zoom:15%;" /></p>
+<h2 id="差分"><a href="#差分" class="headerlink" title="差分"></a>差分</h2><h3 id="定义-1"><a href="#定义-1" class="headerlink" title="定义"></a>定义</h3><img src="https://download.yumie.xyz/img/image-20220126094845832.png" alt="image-20220126094845832" style="zoom:50%;" />
+
+<p>构造差分数组</p>
+<h3 id="作用-1"><a href="#作用-1" class="headerlink" title="作用"></a>作用</h3><img src="https://download.yumie.xyz/img/image-20220126094907156.png" alt="image-20220126094907156" style="zoom: 33%;" />
+
+<p>让l到r这个范围中的每个数都+c（执行同样的操作）</p>
+<img src="https://download.yumie.xyz/img/image-20220126094923922.png" alt="image-20220126094923922" style="zoom:67%;" />
+
+<p>用O(1)的时间来给原数组中的某一区间的每个值，都加上一个值</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>在搜题解的时候看到一句话说的很有道理：</p>
+<blockquote>
+<p>差分实质上就是前缀和的逆运算，主要解决连续多次在部分区间增加某个值 c 之后，求更新之后的数组</p>
+</blockquote>
+<h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><ol start="797">
+<li>差分</li>
+</ol>
+<p>输入一个长度为 n 的整数序列。</p>
+<p>接下来输入 m 个操作，每个操作包含三个整数 l,r,c，表示将序列中 [l,r]之间的每个数加上 c。</p>
+<p>请你输出进行完所有操作后的序列。</p>
+<h4 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h4><p>第一行包含两个整数 n 和 m。</p>
+<p>第二行包含 n 个整数，表示整数序列。</p>
+<p>接下来 m 行，每行包含三个整数 l，r，c表示一个操作。</p>
+<h4 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h4><p>共一行，包含 n 个整数，表示最终序列。</p>
+<h4 id="数据范围"><a href="#数据范围" class="headerlink" title="数据范围"></a>数据范围</h4><p>1 ≤ n, m ≤ 100000<br>1 ≤ l ≤ r ≤ n<br>−1000 ≤ c ≤ 1000<br>−1000 ≤ 整数序列中元素的值 ≤ 1000</p>
+<h4 id="输入样例："><a href="#输入样例：" class="headerlink" title="输入样例："></a>输入样例：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">6 3</span><br><span class="line">1 2 2 1 2 1</span><br><span class="line">1 3 1</span><br><span class="line">3 5 1</span><br><span class="line">1 6 1</span><br></pre></td></tr></table></figure>
+
+<h4 id="输出样例："><a href="#输出样例：" class="headerlink" title="输出样例："></a>输出样例：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">3 4 5 3 4 2</span><br></pre></td></tr></table></figure>
+
+<h4 id="问题求解："><a href="#问题求解：" class="headerlink" title="问题求解："></a>问题求解：</h4><p>类似于数学中的求导和积分，<strong>差分可以看成前缀和的逆运算</strong></p>
+<p><strong>差分数组</strong>：</p>
+<p>首先给定一个原数组<code>a</code>：<code>a[1], a[2], a[3],,,,,, a[n]</code>;</p>
+<p>然后我们构造一个数组<code>b</code> ： <code>b[1] ,b[2] , b[3],,,,,, b[i]</code>;</p>
+<p>使得 <code>a[i] = b[1] + b[2 ]+ b[3] +,,,,,, + b[i]</code></p>
+<p>也就是说，<code>a</code>数组是b数组的前缀和数组，反过来我们把<code>b</code>数组叫做<code>a</code>数组的差分数组。换句话说，每一个<code>a[i]</code>都是<code>b</code>数组中从头开始的一段区间和。</p>
+<p>考虑如何构造差分<code>b</code>数组？</p>
+<p><strong>最为直接的方法如下：</strong></p>
+<p><code>a[0]= 0</code></p>
+<p><code>b[1] = a[1] - a[0]</code></p>
+<p><code>b[2] = a[2] - a[1]</code></p>
+<p><code>b[3] = a[3] - a[2]</code></p>
+<p>…</p>
+<p><code>b[n] = a[n] - a[n-1]</code></p>
+<p>我们只要有b数组，通过前缀和运算，就可以在O(n) 的时间内得到a数组</p>
+<p><strong>知道了差分数组有什么用呢？</strong> 别着急，慢慢往下看。</p>
+<p><strong>这道题第一次遇到正常人的思路是</strong>：</p>
+<p>给定区间<code>[l ,r]</code>，让我们把a数组中的<code>[l, r]</code>区间中的每一个数都加上<code>c</code>,</p>
+<p>即 <code>a[l] + c , a[l+1] + c , a[l+2] + c , ... ,  a[r] + c</code></p>
+<p>暴力做法是for循环<code>l</code>到<code>r</code>区间，时间复杂度<code>O(n)</code>，如果我们需要对原数组执行<code>m</code>次这样的操作，时间复杂度就会变成<code>O(n*m)</code>。有没有更高效的做法吗? 考虑差分做法。</p>
+<p><strong>始终要记得，a数组是b数组的前缀和数组</strong>，比如对<code>b</code>数组的<code>b[i]</code>的修改，会影响到<code>a</code>数组中从<code>a[i]</code>及往后的每一个数。</p>
+<p>首先让差分<code>b</code>数组中的 <code>b[l] + c</code> ,<code>a</code>数组变成 <code>a[l] + c ,a[l+1] + c, ... , a[n] + c</code></p>
+<p>然后我们打个补丁，<code>b[r+1] - c</code>, <code>a</code>数组变成 <code>a[r+1] - c,a[r+2] - c, ... ,a[n] - c</code></p>
+<p><strong>为啥还要打个补丁？</strong></p>
+<p><strong>我们画个图理解一下这个公式的由来:</strong></p>
+<p><img src="https://download.yumie.xyz/img/image-20220126143744018.png" alt="image-20220126143744018"></p>
+<p><code>b[l] + c</code>，效果使得<code>a</code>数组中 <code>a[l]</code>及以后的数都加上了<code>c</code>(红色部分)，但我们只要求<code>l</code>到<code>r</code>区间加上<code>c</code>, 因此还需要执行 <code>b[r+1] - c</code>,让<code>a</code>数组中<code>a[r+1]</code>及往后的区间再减去<code>c</code>(绿色部分)，这样对于<code>a[r]</code> 以后区间的数相当于没有发生改变。</p>
+<p>因此我们得出一维差分结论：给<code>a</code>数组中的<code>[l, r]</code>区间中的每一个数都加上<code>c</code>,只需对差分数组<code>b</code>做 <code>b[l] + = c</code>, <code>b[r+1] - = c</code>。时间复杂度为<code>O(1)</code>, 大大提高了效率。</p>
+<p><strong>总结</strong>：</p>
+<img src="https://download.yumie.xyz/img/image-20220126145236034.png" alt="image-20220126145236034" style="zoom: 67%;" />]]></content>
+      <tags>
+        <tag>蓝桥杯</tag>
+        <tag>算法</tag>
+        <tag>数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决 Win11 右键菜单和资源管理器卡顿</title>
+    <url>/20220120/%E8%A7%A3%E5%86%B3-Win11-%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E5%92%8C%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E5%8D%A1%E9%A1%BF/</url>
+    <content><![CDATA[<p>这个问题是win11新功能优化问题</p>
+<p>我们可以通过改回原来的右键菜单和资源管理器来解决</p>
+<img src="https://download.yumie.xyz/img/image-20220120221734565.png" alt="image-20220120221734565" style="zoom:50%;" />
+
+<span id="more"></span>
+
+<p><a href="https://download.yumie.xyz/img/win11%E6%94%B9%E5%8F%B3%E9%94%AE%E5%92%8C%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8.bat">https://download.yumie.xyz/img/win11改右键和资源管理器.bat</a></p>
+<p><img src="https://download.yumie.xyz/img/image-20220120215932065.png" alt="image-20220120215932065"></p>
+]]></content>
+      <tags>
+        <tag>Winodws</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>试题 基础练习 Fibonacci数列 Python实现</title>
+    <url>/20220120/%E8%AF%95%E9%A2%98-%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0-Fibonacci%E6%95%B0%E5%88%97-Python%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[<p>刷题记录</p>
+<img src="https://download.yumie.xyz/img/image-20220120222333742.png" alt="image-20220120222333742" style="zoom: 50%;" />
+
+<span id="more"></span>
+
+<p><img src="https://download.yumie.xyz/img/image-20220120213914273.png" alt="image-20220120213914273"></p>
+<p>废话不多说，先上满分代码：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">n = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">F = [<span class="number">1</span>, <span class="number">1</span>, <span class="number">0</span>]</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>, n):</span><br><span class="line">    F[i % <span class="number">3</span>] = (F[(i - <span class="number">1</span>) % <span class="number">3</span>] + F[(i - <span class="number">2</span>) % <span class="number">3</span>]) % <span class="number">10007</span></span><br><span class="line"><span class="built_in">print</span>(F[(n - <span class="number">1</span>) % <span class="number">3</span>])</span><br></pre></td></tr></table></figure>
+
+<p>本题对时间和空间要求非常严格，尤其是最后两个测试</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120213957489.png" alt="image-20220120213957489"></p>
+<p>在室友的帮助下完美AC</p>
+<p>原理类似循环链表，通过巧妙地取余，实现在只有三个元素的列表内循环覆盖，最后再通过取余算出列表中的最新值</p>
+<p>通过循环覆盖方式解决了内存超限的问题</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120214017840.png" alt="image-20220120214017840"></p>
+<p>在循环过程中就对10007取余，解决了超时问题</p>
+<p>室友提供的思路太强了！</p>
+]]></content>
+      <tags>
+        <tag>Python</tag>
+        <tag>蓝桥杯</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python列表的注意事项</title>
+    <url>/20220126/python%E5%88%97%E8%A1%A8%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<p>Python刷题时遇到的坑</p>
+<p><img src="https://download.yumie.xyz/img/image-20220126160436773.png" alt="image-20220126160436773"></p>
+<span id="more"></span>
+
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">new = old[:]</span><br></pre></td></tr></table></figure>
+
+<p>Python高手都知道这行代码是什么意思。它复制列表old到new。</p>
+<p>但它对于新手来说会很困惑，所以我们应该避免使用这种方法。</p>
+<p>可惜的是[:]这种方法经常被使用，可能是大家不知道更好、更优雅的列表复制法吧。</p>
+<p>首先我们需要了解Python是如何管理对象和变量。</p>
+<p><strong>Python没有C语言中的变量。在C语言中，变量不止是个名字，它是字节集合并真实存在于内存某个位置上。</strong></p>
+<p><strong>而在Python中，变量仅仅是指向对象的标签。</strong></p>
+<p>看看下面的代码：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br></pre></td></tr></table></figure>
+
+<p>它表示我们创建了一个指引指向列表[1, 2, 3]，但是a其实不是列表。如果这时使</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">b = a</span><br></pre></td></tr></table></figure>
+
+<p>我们此时并没有复制a所指引的列表。我们只是创建了一个新的标签b，然后将其指向a所指向的列表。</p>
+<img src="https://download.yumie.xyz/img/image-20220126155228414.png" alt="image-20220126155228414" style="zoom:50%;" />
+
+<p>如果你修改a，那你就同时修改了b，因为它们指向同一个列表：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b = a</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a.append(<span class="number">4</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">print</span> a</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">print</span> b</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br></pre></td></tr></table></figure>
+
+<p>内建函数id()可以返回对象的唯一id。该id是对象的内存地址。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">id</span>(a)</span><br><span class="line"><span class="number">3086056</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">id</span>(b)</span><br><span class="line"><span class="number">3086056</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>c = [] <span class="comment"># Create a new list</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">id</span>(c)</span><br><span class="line"><span class="number">2946712</span></span><br></pre></td></tr></table></figure>
+
+<p>可以看出a和b都指向同一个内存地址。c指向一个新建的空列表，因此指向了不同的地址。</p>
+<p>现在我们要复制a指引的列表。我们必须创建新的列表，然后使用b指向它。</p>
+<img src="https://download.yumie.xyz/img/image-20220126155358913.png" alt="image-20220126155358913" style="zoom:50%;" />
+
+<p>这其实就是 new = old[:]</p>
+<p>切片运算符[:]返回一个序列的切片</p>
+<p><strong>切片过程是切下列表的一部分，创建新的列表，将切下的部分复制到新列表。</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>a[<span class="number">1</span>:<span class="number">3</span>]</span><br><span class="line">[<span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">id</span>(a)</span><br><span class="line"><span class="number">3086056</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">id</span>(a[<span class="number">1</span>:<span class="number">3</span>])</span><br><span class="line"><span class="number">3063400</span></span><br></pre></td></tr></table></figure>
+
+<p>还有另一种列表复制方式：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>b = <span class="built_in">list</span>(a)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">id</span>(a)</span><br><span class="line"><span class="number">3086056</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">id</span>(b)</span><br><span class="line"><span class="number">3086256</span></span><br></pre></td></tr></table></figure>
+
+<p>Isn’t it better, less cryptic, and more pythonic?</p>
+<p>a[:]看起来有点太像Perl。</p>
+<p>不同于切片标记法，不了解Python的人也会明白b是一个列表。</p>
+<p><strong>下次你看见[:]的时候试试使用list()替代，这样可以让你的代码更加可读。</strong></p>
+]]></content>
+      <tags>
+        <tag>Python</tag>
       </tags>
   </entry>
 </search>
