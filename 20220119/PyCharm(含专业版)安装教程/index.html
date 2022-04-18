@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)">
+<meta name="generator" content="Hexo 6.0.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://download.yumie.xyz/img/头像.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://download.yumie.xyz/img/头像.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://download.yumie.xyz/img/头像.png">
+  <link rel="mask-icon" href="https://download.yumie.xyz/img/头像.png" color="#222">
+  <link rel="manifest" href="https://download.yumie.xyz/img/头像.png">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/black/pace-theme-flash.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"yumie.xyz","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.9.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<meta name="msvalidate.01" content="1D9506CDACA390A728384202BB35A829" /><meta name="description" content="介绍PyCharm的安装方法–小白也能轻松学会！">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PyCharm(含专业版)安装教程">
+<meta property="og:url" content="http://yumie.xyz/20220119/PyCharm(%E5%90%AB%E4%B8%93%E4%B8%9A%E7%89%88)%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/index.html">
+<meta property="og:site_name" content="agecspnt&#39;s 个人博客">
+<meta property="og:description" content="介绍PyCharm的安装方法–小白也能轻松学会！">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120222839647.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/2021090603102472.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220119175443234.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220119175502592.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220119175511722.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220119175722751.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220119175754232.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220119175834654.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220119175929740.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220119180021047.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220119180230546.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220119180244617.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220119180254596.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220119180302962.png">
+<meta property="article:published_time" content="2022-01-19T10:07:36.000Z">
+<meta property="article:modified_time" content="2022-01-20T14:28:58.698Z">
+<meta property="article:author" content="agecspnt">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="开发环境">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://download.yumie.xyz/img/image-20220120222839647.png">
+
+
+<link rel="canonical" href="http://yumie.xyz/20220119/PyCharm(%E5%90%AB%E4%B8%93%E4%B8%9A%E7%89%88)%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://yumie.xyz/20220119/PyCharm(%E5%90%AB%E4%B8%93%E4%B8%9A%E7%89%88)%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/","path":"20220119/PyCharm(含专业版)安装教程/","title":"PyCharm(含专业版)安装教程"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>PyCharm(含专业版)安装教程 | agecspnt's 个人博客</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">agecspnt's 个人博客</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">少年自有凌云志，不负黄河万古流</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">15</span></a></li>
+        <li class="menu-item menu-item-优质网站分享"><a href="/website" rel="section"><i class="fas fa-folder fa-fw"></i>优质网站分享</a></li>
+        <li class="menu-item menu-item-友情链接"><a href="/links" rel="section"><i class="fas fa-link fa-fw"></i>友情链接</a></li>
+        <li class="menu-item menu-item-基础算法笔记"><a href="/algo" rel="section"><i class="fa fa-sticky-note fa-fw"></i>基础算法笔记</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A4%BE%E5%8C%BA%E7%89%88%E5%92%8C%E4%B8%93%E4%B8%9A%E7%89%88%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="nav-number">1.</span> <span class="nav-text">社区版和专业版的区别</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%9F%E8%83%BD%E4%B8%8A%E7%9A%84%E5%8C%BA%E5%88%AB%EF%BC%9A"><span class="nav-number">1.1.</span> <span class="nav-text">功能上的区别：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E5%8C%BA%E5%88%AB"><span class="nav-number">1.2.</span> <span class="nav-text">其他区别:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%82%E7%94%A8%E4%BA%BA%E7%BE%A4%E4%B8%8D%E5%90%8C"><span class="nav-number">1.3.</span> <span class="nav-text">适用人群不同</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text">下载和安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%99%BD%E5%AB%96%E4%B8%93%E4%B8%9A%E7%89%88-%E5%8F%AF%E9%80%89"><span class="nav-number">3.</span> <span class="nav-text">白嫖专业版(可选)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9D%E6%AC%A1%E6%89%93%E5%BC%80-%E6%96%B0%E5%BB%BA%E9%A1%B9%E7%9B%AE"><span class="nav-number">4.</span> <span class="nav-text">初次打开, 新建项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2"><span class="nav-number">5.</span> <span class="nav-text">设置中文界面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E6%8F%92%E4%BB%B6-%E5%BA%93%E9%80%9F%E5%BA%A6%E5%A4%AA%E6%85%A2-%E6%8D%A2%E6%BA%90"><span class="nav-number">6.</span> <span class="nav-text">下载插件&#x2F;库速度太慢? 换源!</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="agecspnt"
+      src="https://download.yumie.xyz/img/头像.png">
+  <p class="site-author-name" itemprop="name">agecspnt</p>
+  <div class="site-description" itemprop="description">分享技术经验、心得</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/agecspnt" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;agecspnt" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:agecspnt@gmail.com" title="E-Mail → mailto:agecspnt@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+          <div id="days"></div>
+</script>
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("01/19/2022 12:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="本站已运行"+daysold+"天"+hrsold+"时"+minsold+"分"+seconds+"秒";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+        </div>
+        
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yumie.xyz/20220119/PyCharm(%E5%90%AB%E4%B8%93%E4%B8%9A%E7%89%88)%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://download.yumie.xyz/img/头像.png">
+      <meta itemprop="name" content="agecspnt">
+      <meta itemprop="description" content="分享技术经验、心得">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="agecspnt's 个人博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          PyCharm(含专业版)安装教程
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-01-19 18:07:36" itemprop="dateCreated datePublished" datetime="2022-01-19T18:07:36+08:00">2022-01-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-01-20 22:28:58" itemprop="dateModified" datetime="2022-01-20T22:28:58+08:00">2022-01-20</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.5k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>介绍PyCharm的安装方法–小白也能轻松学会！</p>
+<img src="https://download.yumie.xyz/img/image-20220120222839647.png" alt="image-20220120222839647" style="zoom: 25%;" />
+
+<span id="more"></span>
+
+<h2 id="社区版和专业版的区别"><a href="#社区版和专业版的区别" class="headerlink" title="社区版和专业版的区别"></a>社区版和专业版的区别</h2><h3 id="功能上的区别："><a href="#功能上的区别：" class="headerlink" title="功能上的区别："></a>功能上的区别：</h3><p>PyCharm 专业版是功能最丰富的，与社区版相比，PyCharm 专业版增加了 Web 开发、Python Web 框架、Python 分析器、远程开发、支持数据库与 SQL 等更多高级功能。</p>
+<p>PyCharm 的社区版中没有 Web 开发、Python We 框架、Python 分析器、远程开发、支持数据库与 SQL 等这些功能。</p>
+<p>PyCharm 教育版的功能虽然比专业版会少一些，但与社区版相比，更加支持学校的教学工作。</p>
+<h3 id="其他区别"><a href="#其他区别" class="headerlink" title="其他区别:"></a>其他区别:</h3><p>PyCharm 的专业版是需要付费购买该软件的激活码才可以进行使用。</p>
+<p>PyCharm 的社区版提供给开发者免费使用的。</p>
+<p>PyCharm 的教育版只针对师生认证的用户才免费使用。</p>
+<h3 id="适用人群不同"><a href="#适用人群不同" class="headerlink" title="适用人群不同"></a>适用人群不同</h3><p>PyCharm 的专业版是适用于一些公司进行专业互联网开发适用，这需要使用公司投入一定资金。</p>
+<p>PyCharm 的社区版是提供给编程爱好者使用学术交流的，所以是免费提供的，其功能虽然不够全面，但能够满足日常开发需要。</p>
+<p>PyCharm 的教育版则是以公益为目的免费提供给各大学校进行编程教学，发展编程教育事业。</p>
+<p><strong>建议初学者选择社区版, 专业研究选择专业版.</strong></p>
+<h2 id="下载和安装"><a href="#下载和安装" class="headerlink" title="下载和安装"></a>下载和安装</h2><p>先下载需要的 Python 版本(官网下载)</p>
+<p><a target="_blank" rel="noopener" href="https://www.python.org/">https://www.python.org/</a></p>
+<p>Python安装教程:</p>
+<p> <a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624">https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624</a></p>
+<p>下载 PyCharm(官网下载)</p>
+<p><a target="_blank" rel="noopener" href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a></p>
+<p><img src="https://download.yumie.xyz/img/2021090603102472.png"></p>
+<p>左边是专业版, 右边是免费版(社区版)</p>
+<h2 id="白嫖专业版-可选"><a href="#白嫖专业版-可选" class="headerlink" title="白嫖专业版(可选)"></a>白嫖专业版(可选)</h2><blockquote>
+<p><strong>!!!社区版直接跳过这一步</strong></p>
+</blockquote>
+<p>如果是大学生, 可以在官网上认证, 免费试用一年, 但是时间太短, 我们采用一劳永逸的方法:</p>
+<p>安装完专业版, 选择试用, 先随便新建一个项目进入主界面</p>
+<p>找到 Settings/Preferences… -&gt; Plugins</p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175443234.png" alt="image-20220119175443234"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175502592.png" alt="image-20220119175502592"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175511722.png" alt="image-20220119175511722"></p>
+<p>手动添加第三方插件仓库地址：<a target="_blank" rel="noopener" href="https://plugins.zhile.io/">https://plugins.zhile.io</a></p>
+<p>搜索：IDE Eval Reset 插件进行安装</p>
+<p>安装成功之后, 首次运行</p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175722751.png" alt="image-20220119175722751"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175754232.png" alt="image-20220119175754232"></p>
+<p>勾选 Auto reset before per restart , 勾选之后点击 Reset</p>
+<p>接着一路 yes/ok, 重启 PyCharm 过后就可以了</p>
+<p>在每次 Pycharm 重启的时候都会自动续期</p>
+<p>这样就可以拥有无限的试用时间, 相当于免费了</p>
+<h2 id="初次打开-新建项目"><a href="#初次打开-新建项目" class="headerlink" title="初次打开, 新建项目"></a>初次打开, 新建项目</h2><p><img src="https://download.yumie.xyz/img/image-20220119175834654.png" alt="image-20220119175834654"></p>
+<p>我们点击 New Project</p>
+<p><img src="https://download.yumie.xyz/img/image-20220119175929740.png" alt="image-20220119175929740"></p>
+<p>建议不要把代码放在 c 盘, 因为很多人找不到这个位置在哪, 那么放在其他磁盘中就能解决这个问题</p>
+<p>其他的不用更改, 因为 PyCharm 会自动更改下面虚拟环境的路径</p>
+<p><strong>为什么要用虚拟环境???</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在实际项目开发中，我们通常会根据自己的需求去下载各种相应的框架库，如 Scrapy、Beautiful Soup 等，但是可能每个项目使用的框架库并不一样，或使用框架的版本不一样，这样需要我们根据需求不断的更新或卸载相应的库。直接怼我们的 Python 环境操作会让我们的开发环境和项目造成很多不必要的麻烦，管理也相当混乱。</span><br></pre></td></tr></table></figure>
+
+<p>点击 Create</p>
+<p>那么现在项目就创建成功了，勾选 Show tips on startup，不用每次都打开欢迎界面，然后关闭即可。</p>
+<p>到现在, 项目已经创建完毕了</p>
+<h2 id="设置中文界面"><a href="#设置中文界面" class="headerlink" title="设置中文界面"></a>设置中文界面</h2><p>File &gt; Setting &gt; Plugins &gt; Marketplace</p>
+<p>搜索 Chinese</p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180021047.png" alt="image-20220119180021047"></p>
+<p>安装这个下载量最多的</p>
+<p>完事后重启 PyCharm 就 ok 了</p>
+<h2 id="下载插件-库速度太慢-换源"><a href="#下载插件-库速度太慢-换源" class="headerlink" title="下载插件/库速度太慢? 换源!"></a>下载插件/库速度太慢? 换源!</h2><p>打开 settings </p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180230546.png" alt="image-20220119180230546"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180244617.png" alt="image-20220119180244617"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180254596.png" alt="image-20220119180254596"></p>
+<p><img src="https://download.yumie.xyz/img/image-20220119180302962.png" alt="image-20220119180302962"></p>
+<p>输入清华源 <a target="_blank" rel="noopener" href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a> 点击 ok</p>
+<p>以后再在国内下载第三方库, 速度就会快很多了</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>Buy me a coffee</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="https://download.yumie.xyz/img/微信收款.png" alt="agecspnt 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="https://download.yumie.xyz/img/支付宝收款.jpg" alt="agecspnt 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/Python/" rel="tag"># Python</a>
+              <a href="/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/" rel="tag"># 开发环境</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/" rel="prev" title="Next主题汇总">
+                  <i class="fa fa-chevron-left"></i> Next主题汇总
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">豫ICP备2021025925号 </a>
+      <img src="https://download.yumie.xyz/img/备案图标.png" alt="">
+  </div>
+
+<div class="copyright">
+  &copy; 2021 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">agecspnt</span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+  <script src="/js/third-party/pace.js"></script>
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>

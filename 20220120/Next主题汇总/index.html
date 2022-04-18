@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)">
+<meta name="generator" content="Hexo 6.0.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://download.yumie.xyz/img/头像.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://download.yumie.xyz/img/头像.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://download.yumie.xyz/img/头像.png">
+  <link rel="mask-icon" href="https://download.yumie.xyz/img/头像.png" color="#222">
+  <link rel="manifest" href="https://download.yumie.xyz/img/头像.png">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/black/pace-theme-flash.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"yumie.xyz","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.9.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<meta name="msvalidate.01" content="1D9506CDACA390A728384202BB35A829" /><meta name="description" content="Github Pages + Hexo + Next主题 配置心得">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Next主题汇总">
+<meta property="og:url" content="http://yumie.xyz/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/index.html">
+<meta property="og:site_name" content="agecspnt&#39;s 个人博客">
+<meta property="og:description" content="Github Pages + Hexo + Next主题 配置心得">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120222925508.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120153537822.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120154000312.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120154451699.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120155250890.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120155800342.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120161604662.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120161905826.png">
+<meta property="og:image" content="https://download.yumie.xyz/img/image-20220120162022892.png">
+<meta property="article:published_time" content="2022-01-20T07:00:00.000Z">
+<meta property="article:modified_time" content="2022-01-20T14:33:23.422Z">
+<meta property="article:author" content="agecspnt">
+<meta property="article:tag" content="博客搭建">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://download.yumie.xyz/img/image-20220120222925508.png">
+
+
+<link rel="canonical" href="http://yumie.xyz/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://yumie.xyz/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/","path":"20220120/Next主题汇总/","title":"Next主题汇总"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Next主题汇总 | agecspnt's 个人博客</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">agecspnt's 个人博客</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">少年自有凌云志，不负黄河万古流</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">15</span></a></li>
+        <li class="menu-item menu-item-优质网站分享"><a href="/website" rel="section"><i class="fas fa-folder fa-fw"></i>优质网站分享</a></li>
+        <li class="menu-item menu-item-友情链接"><a href="/links" rel="section"><i class="fas fa-link fa-fw"></i>友情链接</a></li>
+        <li class="menu-item menu-item-基础算法笔记"><a href="/algo" rel="section"><i class="fa fa-sticky-note fa-fw"></i>基础算法笔记</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-number">1.</span> <span class="nav-text">基本操作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#GitHub-Pages-%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D"><span class="nav-number">2.</span> <span class="nav-text">GitHub Pages 绑定域名</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E6%9E%90DNS"><span class="nav-number">2.1.</span> <span class="nav-text">解析DNS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0-CNAME-%E6%96%87%E4%BB%B6"><span class="nav-number">2.2.</span> <span class="nav-text">添加 CNAME 文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Github-Pages-%E5%AF%B9%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E4%B8%8A-Https"><span class="nav-number">2.3.</span> <span class="nav-text">Github Pages 对自定义域上 Https</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE-CDN-%E8%BF%9B%E8%A1%8C%E5%8A%A0%E9%80%9F"><span class="nav-number">3.</span> <span class="nav-text">配置 CDN 进行加速</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo-%E4%B8%BB%E9%A2%98NexT"><span class="nav-number">4.</span> <span class="nav-text">Hexo 主题NexT</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%B9%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="nav-number">4.1.</span> <span class="nav-text">根目录结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#themes%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="nav-number">4.2.</span> <span class="nav-text">themes目录结构</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E5%9B%BE%E5%BA%8A"><span class="nav-number">5.</span> <span class="nav-text">配置图床</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87"><span class="nav-number">6.</span> <span class="nav-text">疑难杂症</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%A7%E9%99%86%E7%89%B9%E8%89%B2%E9%97%AE%E9%A2%98"><span class="nav-number">6.1.</span> <span class="nav-text">大陆特色问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#npm%E8%A3%85%E5%8C%85%E6%80%BB%E6%98%AF%E8%A3%85%E4%B8%8D%E4%B8%8A%EF%BC%9F"><span class="nav-number">6.1.1.</span> <span class="nav-text">npm装包总是装不上？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git%E4%B8%8A%E4%BC%A0%E6%80%BB%E6%98%AF%E5%A4%B1%E8%B4%A5%EF%BC%9F%EF%BC%9F"><span class="nav-number">6.1.2.</span> <span class="nav-text">git上传总是失败？？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NexT%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E7%BB%86%E8%8A%82"><span class="nav-number">7.</span> <span class="nav-text">NexT主题配置细节</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AB%99%E7%82%B9%E9%85%8D%E7%BD%AE"><span class="nav-number">7.1.</span> <span class="nav-text">站点配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE-hexo-%E7%9A%84-next-%E4%B8%BB%E9%A2%98"><span class="nav-number">7.1.1.</span> <span class="nav-text">设置 hexo 的 next 主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE-hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3%E4%BF%A1%E6%81%AF"><span class="nav-number">7.1.2.</span> <span class="nav-text">配置 hexo 网站相关信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE-hexo-%E4%B8%AD%E7%9A%84-about%E3%80%81tag%E3%80%81links%E8%8F%9C%E5%8D%95"><span class="nav-number">7.1.3.</span> <span class="nav-text">配置 hexo 中的 about、tag、links菜单</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%89%8B%E5%8A%A8%E7%94%9F%E6%88%90-hexo-%E8%8F%9C%E5%8D%95%E5%AF%B9%E5%BA%94%E6%96%87%E4%BB%B6"><span class="nav-number">7.1.4.</span> <span class="nav-text">手动生成 hexo 菜单对应文件</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA-about-%E9%A1%B5%E9%9D%A2"><span class="nav-number">7.1.4.1.</span> <span class="nav-text">新建 about 页面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AA-tags-%E9%A1%B5%E9%9D%A2"><span class="nav-number">7.1.4.2.</span> <span class="nav-text">新建一个 tags 页面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AA-categories-%E9%A1%B5%E9%9D%A2"><span class="nav-number">7.1.4.3.</span> <span class="nav-text">新建一个 categories 页面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AA-404-%E9%A1%B5%E9%9D%A2"><span class="nav-number">7.1.4.4.</span> <span class="nav-text">新建一个 404 页面</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE"><span class="nav-number">7.2.</span> <span class="nav-text">主题配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE-hexo-%E4%B8%AD-next-%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F%E9%80%89%E6%8B%A9"><span class="nav-number">7.2.1.</span> <span class="nav-text">配置 hexo 中 next 主题样式选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%B4%E5%83%8F%E4%BF%A1%E6%81%AF%E8%AE%BE%E7%BD%AE"><span class="nav-number">7.2.2.</span> <span class="nav-text">头像信息设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A4%BE%E4%BA%A4%E4%BF%A1%E6%81%AF%E5%92%8C%E5%8F%8B%E9%93%BE%E9%85%8D%E7%BD%AE"><span class="nav-number">7.2.3.</span> <span class="nav-text">社交信息和友链配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B4%E6%94%B9%E5%8A%A8%E7%94%BB%E5%92%8C%E5%8A%A8%E7%94%BB%E9%80%9F%E5%BA%A6"><span class="nav-number">7.2.4.</span> <span class="nav-text">更改动画和动画速度</span></a></li></ol></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="agecspnt"
+      src="https://download.yumie.xyz/img/头像.png">
+  <p class="site-author-name" itemprop="name">agecspnt</p>
+  <div class="site-description" itemprop="description">分享技术经验、心得</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/agecspnt" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;agecspnt" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:agecspnt@gmail.com" title="E-Mail → mailto:agecspnt@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+          <div id="days"></div>
+</script>
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("01/19/2022 12:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="本站已运行"+daysold+"天"+hrsold+"时"+minsold+"分"+seconds+"秒";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+        </div>
+        
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yumie.xyz/20220120/Next%E4%B8%BB%E9%A2%98%E6%B1%87%E6%80%BB/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://download.yumie.xyz/img/头像.png">
+      <meta itemprop="name" content="agecspnt">
+      <meta itemprop="description" content="分享技术经验、心得">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="agecspnt's 个人博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Next主题汇总
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-01-20 15:00:00 / 修改时间：22:33:23" itemprop="dateCreated datePublished" datetime="2022-01-20T15:00:00+08:00">2022-01-20</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>5.2k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>5 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>Github Pages + Hexo + Next主题</p>
+<p>配置心得</p>
+<img src="https://download.yumie.xyz/img/image-20220120222925508.png" alt="image-20220120222925508" style="zoom: 50%;" />
+
+<span id="more"></span>
+
+<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><ul>
+<li>常见命令：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;postName&quot;</span>      <span class="comment"># 新建文章</span></span><br><span class="line">hexo new page <span class="string">&quot;pageName&quot;</span> <span class="comment"># 新建页面</span></span><br><span class="line">hexo generate            <span class="comment"># 生成静态页面至public目录</span></span><br><span class="line">hexo server              <span class="comment"># 开启预览访问端口（默认端口4000，&#x27;ctrl + c&#x27;关闭server）</span></span><br><span class="line">hexo deploy              <span class="comment"># 部署到GitHub</span></span><br><span class="line">hexo <span class="built_in">help</span>                <span class="comment"># 查看帮助</span></span><br><span class="line">hexo version             <span class="comment"># 查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>缩写命令：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo n == hexo new</span><br><span class="line">hexo g == hexo generate</span><br><span class="line">hexo s == hexo server</span><br><span class="line">hexo d == hexo deploy</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>组合命令：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo s -g   <span class="comment"># 生成并本地预览</span></span><br><span class="line">hexo d -g   <span class="comment"># 生成并上传</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>写文章</li>
+</ul>
+<p>我们可以在 hexo 根目录下执行命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&#x27;my-first-blog&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>分隔符</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="GitHub-Pages-绑定域名"><a href="#GitHub-Pages-绑定域名" class="headerlink" title="GitHub Pages 绑定域名"></a>GitHub Pages 绑定域名</h1><h2 id="解析DNS"><a href="#解析DNS" class="headerlink" title="解析DNS"></a>解析DNS</h2><p>我采用的是腾讯云下面的poddns</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120153537822.png" alt="image-20220120153537822"></p>
+<p>配置也相当简单，只需要更新 DNS 配置里的 A 记录，将其指向以下 4 个 IP 地址中的至少一个。</p>
+<ul>
+<li>185.199.108.153</li>
+<li>185.199.109.153</li>
+<li>185.199.110.153</li>
+<li>185.199.111.153</li>
+</ul>
+<p>上述设置的解释：</p>
+<ul>
+<li>设置 A 记录的意思是，当我输入 <code>yumie.xyz</code> 这个域名的时候，访问的是 <code>185.199.108.153</code> 这个地址；</li>
+<li>设置 CNAME 的意思是，当我访问 <code>agecspnt.github.io</code> 这个地址的时候，会跳转到 <code>yumie.xyz</code>，之后的过程就和 A 记录相同了，即访问 <code>185.199.108.153</code>。</li>
+</ul>
+<h2 id="添加-CNAME-文件"><a href="#添加-CNAME-文件" class="headerlink" title="添加 CNAME 文件"></a>添加 CNAME 文件</h2><p>在 Hexo 本地目录中的 source 文件夹里，添加一个命名为 CNAME 的无后缀文件，文件中的填写你的域名。</p>
+<p>如果你想让地址栏的域名显示 www 前缀就输入 <code>www.xxxxx.com</code>，否则输入 <code>xxxxx.com</code> 即可。</p>
+<p>例如：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">www.yumie.xyz</span><br></pre></td></tr></table></figure>
+
+<h2 id="Github-Pages-对自定义域上-Https"><a href="#Github-Pages-对自定义域上-Https" class="headerlink" title="Github Pages 对自定义域上 Https"></a>Github Pages 对自定义域上 Https</h2><p>然后我们在 Github Pages 项目中 Settings 选项卡 Github Pages 选项：在 Custom domain 添加你的自定义域名。</p>
+<p>刷新页面 如果能勾选 Enforce HTTPS 即完成。</p>
+<p>建议一定要弄个ssl证书来开启HTTPS，要不然之后还会出现图片加载不出来的问题</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120154000312.png" alt="image-20220120154000312"></p>
+<h1 id="配置-CDN-进行加速"><a href="#配置-CDN-进行加速" class="headerlink" title="配置 CDN 进行加速"></a>配置 CDN 进行加速</h1><p>由于 Github Pages 的服务并不是那么稳定，近期出现多次不能正常部署或访问 Pages 的问题，所以我现在采用了<strong>博客部署在 GitHub Pages 上并且配置 CDN 进行加速</strong>的方法。</p>
+<p>国内的 CDN 服务提供商有不少，但是基本都需要备案，因此我用了 Cloudflare 这个国外的 CDN 服务提供商。</p>
+<p>配置 CDN 的过程见：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://tding.top/archives/12c6c559.html">Hexo 配置 Cloudflare 免费 CDN</a></li>
+</ul>
+<h1 id="Hexo-主题NexT"><a href="#Hexo-主题NexT" class="headerlink" title="Hexo 主题NexT"></a>Hexo 主题NexT</h1><p>Hexo 有很多简洁美观的主题，大家可以去 <a target="_blank" rel="noopener" href="https://hexo.io/themes/">Hexo-Themes</a> 去选择自己喜欢的主题。</p>
+<p>我只用过next这一款主题，下面是我美化过程的一个记录。</p>
+<h2 id="根目录结构"><a href="#根目录结构" class="headerlink" title="根目录结构"></a>根目录结构</h2><p><img src="https://download.yumie.xyz/img/image-20220120154451699.png" alt="image-20220120154451699"></p>
+<p>这是Hexo的根目录，下面解析一下每个目录是干啥用的：</p>
+<ul>
+<li>点开头的文件夹：直接无视，这是一些IDE、git配置文件，不用管</li>
+<li>node_modules:  Node.js的包存放的地方，一般不用看</li>
+<li>public: 用过hexo g命令后生成静态文件的地方</li>
+<li>scaffolds：模板文件夹，生成新page或者post时的模板存放目录</li>
+<li>source：可以理解为源代码，文章一般都在这里面写</li>
+<li>themes：各种主题的配置文件</li>
+<li>_config开头的文件：都是主题配置文件，其中__config.yml是全局配置文件</li>
+</ul>
+<h2 id="themes目录结构"><a href="#themes目录结构" class="headerlink" title="themes目录结构"></a>themes目录结构</h2><p><img src="https://download.yumie.xyz/img/image-20220120155250890.png" alt="image-20220120155250890"></p>
+<p>在这个文件夹里你可以看到你已经安装的主题</p>
+<p>拿next来举例</p>
+<ul>
+<li>docs: 一些主题的说明文档</li>
+<li>languages：各种语言的配置文件</li>
+<li>layout：布局文件，需要经常调整</li>
+<li>script：JavaScript文件，一般不用动</li>
+<li>source：用来修改样式，经常需要改动</li>
+</ul>
+<h1 id="配置图床"><a href="#配置图床" class="headerlink" title="配置图床"></a>配置图床</h1><p>图片放到github page上加载很慢，所以我使用七牛云来储存图片</p>
+<p>还有一个优点：本地编辑markdown文件也会方便很多！</p>
+<p>使用PicGo，在typora里面配置好</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120155800342.png" alt="image-20220120155800342"></p>
+<p>七牛云的注册教程自行百度</p>
+<p>注意七牛云的域名，域名的HTTPS问题</p>
+<h1 id="疑难杂症"><a href="#疑难杂症" class="headerlink" title="疑难杂症"></a>疑难杂症</h1><h2 id="大陆特色问题"><a href="#大陆特色问题" class="headerlink" title="大陆特色问题"></a>大陆特色问题</h2><h3 id="npm装包总是装不上？"><a href="#npm装包总是装不上？" class="headerlink" title="npm装包总是装不上？"></a>npm装包总是装不上？</h3><p>安装cnpm，就可以用国内源安装了</p>
+<h3 id="git上传总是失败？？"><a href="#git上传总是失败？？" class="headerlink" title="git上传总是失败？？"></a>git上传总是失败？？</h3><p>第一句在git bash cd到博客根目录运行，可以解决10043问题</p>
+<p>后两句可以解决open ssl failed之类的问题</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
+
+<h1 id="NexT主题配置细节"><a href="#NexT主题配置细节" class="headerlink" title="NexT主题配置细节"></a>NexT主题配置细节</h1><h2 id="站点配置"><a href="#站点配置" class="headerlink" title="站点配置"></a>站点配置</h2><h3 id="设置-hexo-的-next-主题"><a href="#设置-hexo-的-next-主题" class="headerlink" title="设置 hexo 的 next 主题"></a>设置 hexo 的 next 主题</h3><p>我们在站点的配置文件<code>_config.yml</code> 中找到 theme 后添加：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next  # 配置成刚下载的next主题</span><br></pre></td></tr></table></figure>
+
+<h3 id="配置-hexo-网站相关信息"><a href="#配置-hexo-网站相关信息" class="headerlink" title="配置 hexo 网站相关信息"></a>配置 hexo 网站相关信息</h3><p>我们在站点的配置文件<code>_config.yml</code> 中，修改：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title:          # 网站标题</span><br><span class="line">subtitle:       # 网站副标题</span><br><span class="line">description:    # 描述，介绍网站的</span><br><span class="line">keywords:       # 网站的关键字</span><br><span class="line">author:         # 博主姓名</span><br><span class="line">language: zh-CN # 语言：zh-CN 是简体中文</span><br><span class="line">timezone: UTC   # 时区</span><br></pre></td></tr></table></figure>
+
+<p>注意：博客框架默认的语言是英文，我们需要到 <code>/themes/next/languages</code> 目录下，查看当前 NexT 版本简体中文对照文件的名称是 <code>zh-Hans</code> 还是 <code>zh-CN</code>。这里是 <code>zh-CN</code>。</p>
+<h3 id="配置-hexo-中的-about、tag、links菜单"><a href="#配置-hexo-中的-about、tag、links菜单" class="headerlink" title="配置 hexo 中的 about、tag、links菜单"></a>配置 hexo 中的 about、tag、links菜单</h3><p>默认的主题配置文件<code>_config.yml</code> 中，菜单只开启了首页和归档，我们根据需要，可以添加 about、tag、categories、sitemap 等菜单，所以把它们也取消注释。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"># 菜单设置为 菜单名: /菜单目录 || 菜单图标名字</span><br><span class="line">menu:</span><br><span class="line">  home: / || home</span><br><span class="line">  about: /about/ || user</span><br><span class="line">  tags: /tags/ || tags</span><br><span class="line">  categories: /categories/ || th</span><br><span class="line">  archives: /archives/ || archive</span><br><span class="line">  #schedule: /schedule/ || calendar</span><br><span class="line">  sitemap: /sitemap.xml || sitemap</span><br><span class="line">  commonweal: /404/ || heartbeat</span><br><span class="line"></span><br><span class="line">menu_settings:</span><br><span class="line">  icons: true   # 显示图标</span><br><span class="line">  badges: true  # 显示统计信息</span><br></pre></td></tr></table></figure>
+
+<p>注：hexo 所有图标均来自 fontawesome，其中 <code>||</code> 后面是你想要设置的图标的名字。</p>
+<h3 id="手动生成-hexo-菜单对应文件"><a href="#手动生成-hexo-菜单对应文件" class="headerlink" title="手动生成 hexo 菜单对应文件"></a>手动生成 hexo 菜单对应文件</h3><p>新菜单开启后是没有对应文件的，所以要手动生成 about、tags、categories、404 页面。</p>
+<h4 id="新建-about-页面"><a href="#新建-about-页面" class="headerlink" title="新建 about 页面"></a>新建 about 页面</h4><p><code>about</code> 页面一般用来介绍站点信息和博主信息。</p>
+<p>我们可以在博客根目录下输入以下命令新建页面：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure>
+
+<p>然后你会发现多了一个 <code>hexo/source/about</code> 文件夹，里面有一个 <code>index.md</code> 文件，你可以根据自己的需要在这个 Markdown 文件中写一些内容（同文章一样，用 Markdown 语法）。</p>
+<h4 id="新建一个-tags-页面"><a href="#新建一个-tags-页面" class="headerlink" title="新建一个 tags 页面"></a>新建一个 tags 页面</h4><p>同样的，我们可以新建 <code>tags</code> 页面：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
+
+<p>在 <code>tags</code> 页面文件 <code>hexo/source/tags/index.md</code> 的头部修改为：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2019-06-29 11:35:42   # 时间随意</span><br><span class="line">type: &quot;tags&quot;                # 类型一定要为tags</span><br><span class="line">comments: false             # 提示这个页面不需要加载评论</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h4 id="新建一个-categories-页面"><a href="#新建一个-categories-页面" class="headerlink" title="新建一个 categories 页面"></a>新建一个 categories 页面</h4><p>同样的，我们可以新建 <code>categories</code> 页面：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+
+<p>在 <code>categories</code> 页面文件 <code>hexo/source/categories/index.md</code> 的头部修改为：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章分类</span><br><span class="line">date: 2018-10-15 00:03:57</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line"><span class="section">comments: false</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="新建一个-404-页面"><a href="#新建一个-404-页面" class="headerlink" title="新建一个 404 页面"></a>新建一个 404 页面</h4><p>这里我们将 404 替换成腾讯的公益页面。</p>
+<p>首先我们在 <code>hexo/source</code> 目录下创建自己的 <code>404.html</code>：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>404<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">homePageUrl</span>=<span class="string">&quot;/&quot;</span> <span class="attr">homePageName</span>=<span class="string">&quot;返回&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span> </span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注意：Hexo 博客的基本内容是一些 Markdown 文件，放在 <code>source/_post</code> 文件夹下，每个文件对应一篇文章。除此之外，放在 source 文件夹下的所有开头不是下划线的文件，在 <code>hexo generate</code> 的时候，都会被拷贝到 public 文件夹下。但是，<strong>Hexo 默认会渲染所有的 HTML 和 Markdown 文件</strong>。</p>
+</blockquote>
+<p>因此我们可以简单地在文件开头加上 <code>layout: false</code> 一行来避免渲染：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">+layout: false</span><br><span class="line">+---</span><br><span class="line"></span><br><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span></span><br><span class="line"><span class="code">    &lt;head&gt;</span></span><br><span class="line"><span class="code">        &lt;meta charset=&quot;UTF-8&quot;&gt;</span></span><br><span class="line"><span class="code">        &lt;title&gt;404&lt;/title&gt;</span></span><br><span class="line"><span class="code">    &lt;/head&gt;</span></span><br><span class="line"><span class="code">    &lt;body&gt;</span></span><br><span class="line"><span class="code">        &lt;script type=&quot;text/javascript&quot; src=&quot;//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js&quot; charset=&quot;utf-8&quot; homePageUrl=&quot;/&quot; homePageName=&quot;返回&quot;&gt;&lt;/script&gt; </span></span><br><span class="line"><span class="code">    &lt;/body&gt;</span></span><br><span class="line"><span class="code">&lt;/html&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>这样我们就完成了 404 页面的创建。</p>
+<p>注意：本地测试不出来，发布出来就可以了。</p>
+<h2 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h2><h3 id="配置-hexo-中-next-主题样式选择"><a href="#配置-hexo-中-next-主题样式选择" class="headerlink" title="配置 hexo 中 next 主题样式选择"></a>配置 hexo 中 next 主题样式选择</h3><p>NexT 一共提供了 4 种首页样式，按照自己喜好选择一个，选择一个其他主题样式后其他的主题前一定要加上注释<code>#</code>：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">scheme: Gemini</span><br></pre></td></tr></table></figure>
+
+<h3 id="头像信息设置"><a href="#头像信息设置" class="headerlink" title="头像信息设置"></a>头像信息设置</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">avatar:</span><br><span class="line">  url: /images/avatar.jpg  # 设置头像资源的位置</span><br><span class="line">  rounded: true            # 开启圆形头像</span><br><span class="line">  opacity: 1               # 不透明的比例：0就是完全透明</span><br><span class="line">  rotated: false           # 不开启旋转</span><br></pre></td></tr></table></figure>
+
+<h3 id="社交信息和友链配置"><a href="#社交信息和友链配置" class="headerlink" title="社交信息和友链配置"></a>社交信息和友链配置</h3><p>这里和菜单设置格式一样，<code>社交名字: 社交url || 社交图标</code>，图标信息来自 <a target="_blank" rel="noopener" href="https://fontawesome.com/v4.7.0/icons">fontawesome</a>：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">social: </span><br><span class="line">  GitHub: https://github.com/yourname || github</span><br><span class="line">  E-Mail: mailto:yourname@gmail.com || envelope</span><br><span class="line">  Google: https://plus.google.com/yourname || google</span><br><span class="line"></span><br><span class="line">social_icons:</span><br><span class="line">  enable: true      # 显示社交图标</span><br><span class="line">  icons_only: false # 只显示图标，不显示文字</span><br></pre></td></tr></table></figure>
+
+<h3 id="更改动画和动画速度"><a href="#更改动画和动画速度" class="headerlink" title="更改动画和动画速度"></a>更改动画和动画速度</h3><p>更改动画比较简单，在主题配置文件里找到motion即可更改，下面是我的方案</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120161604662.png" alt="image-20220120161604662"></p>
+<p>这里面的效果都可以在<a target="_blank" rel="noopener" href="https://theme-next.js.org/animate/%E7%BD%91%E7%AB%99%E4%B8%AD%E9%A2%84%E8%A7%88">https://theme-next.js.org/animate/网站中预览</a></p>
+<p>动画速度我查了好久才知道在哪改：</p>
+<p>在motion.js (我一直以为它叫animate.js…)</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120161905826.png" alt="image-20220120161905826"></p>
+<p>在这里面搜索duration，即可定位：</p>
+<p><img src="https://download.yumie.xyz/img/image-20220120162022892.png" alt="image-20220120162022892"></p>
+<p>我习惯改的快一点，要不然网站会感觉卡卡的</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>Buy me a coffee</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="https://download.yumie.xyz/img/微信收款.png" alt="agecspnt 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="https://download.yumie.xyz/img/支付宝收款.jpg" alt="agecspnt 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" rel="tag"># 博客搭建</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/20220120/Vue%E6%A1%86%E6%9E%B6/" rel="prev" title="Vue框架">
+                  <i class="fa fa-chevron-left"></i> Vue框架
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/20220119/PyCharm(%E5%90%AB%E4%B8%93%E4%B8%9A%E7%89%88)%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/" rel="next" title="PyCharm(含专业版)安装教程">
+                  PyCharm(含专业版)安装教程 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">豫ICP备2021025925号 </a>
+      <img src="https://download.yumie.xyz/img/备案图标.png" alt="">
+  </div>
+
+<div class="copyright">
+  &copy; 2021 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">agecspnt</span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+  <script src="/js/third-party/pace.js"></script>
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
