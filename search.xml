@@ -1032,14 +1032,21 @@
   <entry>
     <title>博客第一次维护</title>
     <url>/20220418/%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BB%B4%E6%8A%A4/</url>
-    <content><![CDATA[<p>windows环境配置</p>
-<p>先装nodejs，里面包含npm</p>
-<p><a href="https://nodejs.org/en/">Node.js</a></p>
+    <content><![CDATA[<p>电脑重装系统了，需要重新配一下环境</p>
+<span id="more"></span>
+
+
+<h1 id="windows环境配置"><a href="#windows环境配置" class="headerlink" title="windows环境配置"></a>windows环境配置</h1><p>先装nodejs，里面包含npm</p>
+<p>下载地址：<a href="https://nodejs.org/en/">Node.js</a></p>
 <p>然后在git bash中输入：</p>
 <figure class="highlight jsx"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
 
+
 <p>然后安装一些需要的库，解除报错</p>
 <p>20220418碰到的问题是：推送搜索引擎插件没有装，报一堆错</p>
+<figure class="highlight jsx"><table><tr><td class="code"><pre><span class="line">npm install &lt;包名&gt;</span><br></pre></td></tr></table></figure>
+
+<p>安装需要的包就可以了</p>
 ]]></content>
       <tags>
         <tag>博客</tag>
